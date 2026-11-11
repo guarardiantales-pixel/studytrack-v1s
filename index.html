@@ -1,0 +1,2041 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>StudyTrack - Personal Study Tracker SMK</title>
+    <meta name="theme-color" content="#2563eb">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="StudyTrack">
+    <style id="tw-static">*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-bottom-3{bottom:-0.75rem}.-right-3{right:-0.75rem}.bottom-0{bottom:0px}.bottom-1{bottom:0.25rem}.left-0{left:0px}.left-3{left:0.75rem}.right-0{right:0px}.top-0{top:0px}.top-3{top:0.75rem}.z-10{z-index:10}.z-30{z-index:30}.z-40{z-index:40}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-3{margin-top:-0.75rem}.mb-0\.5{margin-bottom:0.125rem}.mb-1{margin-bottom:0.25rem}.mb-1\.5{margin-bottom:0.375rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.ml-auto{margin-left:auto}.mt-0\.5{margin-top:0.125rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-1\.5{height:0.375rem}.h-10{height:2.5rem}.h-2\.5{height:0.625rem}.h-4{height:1rem}.h-44{height:11rem}.h-48{height:12rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-8{height:2rem}.h-9{height:2.25rem}.max-h-60{max-height:15rem}.max-h-\[90vh\]{max-height:90vh}.w-1\.5{width:0.375rem}.w-1\/2{width:50%}.w-1\/3{width:33.333333%}.w-10{width:2.5rem}.w-2\/3{width:66.666667%}.w-24{width:6rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-8{width:2rem}.w-full{width:100%}.max-w-\[480px\]{max-width:480px}.max-w-md{max-width:28rem}.max-w-xs{max-width:20rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}.cursor-pointer{cursor:pointer}.resize{resize:both}.list-disc{list-style-type:disc}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.grid-cols-7{grid-template-columns:repeat(7, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-1{gap:0.25rem}.gap-1\.5{gap:0.375rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.space-x-1 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.25rem * var(--tw-space-x-reverse));margin-left:calc(0.25rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-1\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.375rem * var(--tw-space-x-reverse));margin-left:calc(0.375rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.75rem * var(--tw-space-x-reverse));margin-left:calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-1\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.375rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.375rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-2\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.625rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.625rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.whitespace-nowrap{white-space:nowrap}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-xl{border-radius:0.75rem}.rounded-t-2xl{border-top-left-radius:1rem;border-top-right-radius:1rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-dashed{border-style:dashed}.border-none{border-style:none}.border-amber-200{--tw-border-opacity:1;border-color:rgb(253 230 138 / var(--tw-border-opacity, 1))}.border-amber-300{--tw-border-opacity:1;border-color:rgb(252 211 77 / var(--tw-border-opacity, 1))}.border-blue-100{--tw-border-opacity:1;border-color:rgb(219 234 254 / var(--tw-border-opacity, 1))}.border-blue-200{--tw-border-opacity:1;border-color:rgb(191 219 254 / var(--tw-border-opacity, 1))}.border-blue-200\/60{border-color:rgb(191 219 254 / 0.6)}.border-blue-400\/30{border-color:rgb(96 165 250 / 0.3)}.border-emerald-200{--tw-border-opacity:1;border-color:rgb(167 243 208 / var(--tw-border-opacity, 1))}.border-red-100{--tw-border-opacity:1;border-color:rgb(254 226 226 / var(--tw-border-opacity, 1))}.border-red-200{--tw-border-opacity:1;border-color:rgb(254 202 202 / var(--tw-border-opacity, 1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-slate-50{--tw-border-opacity:1;border-color:rgb(248 250 252 / var(--tw-border-opacity, 1))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36 / var(--tw-bg-opacity, 1))}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235 / var(--tw-bg-opacity, 1))}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-blue-700\/60{background-color:rgb(29 78 216 / 0.6)}.bg-blue-900\/40{background-color:rgb(30 58 138 / 0.4)}.bg-emerald-50{--tw-bg-opacity:1;background-color:rgb(236 253 245 / var(--tw-bg-opacity, 1))}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity, 1))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-50\/70{background-color:rgb(248 250 252 / 0.7)}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-slate-900\/50{background-color:rgb(15 23 42 / 0.5)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-indigo-600{--tw-gradient-to:#4f46e5 var(--tw-gradient-to-position)}.p-0{padding:0px}.p-1{padding:0.25rem}.p-1\.5{padding:0.375rem}.p-2{padding:0.5rem}.p-2\.5{padding:0.625rem}.p-3{padding:0.75rem}.p-3\.5{padding:0.875rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.px-1{padding-left:0.25rem;padding-right:0.25rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-1\.5{padding-bottom:0.375rem}.pb-2{padding-bottom:0.5rem}.pb-20{padding-bottom:5rem}.pb-3{padding-bottom:0.75rem}.pl-4{padding-left:1rem}.pl-8{padding-left:2rem}.pr-1{padding-right:0.25rem}.pr-2{padding-right:0.5rem}.pr-3{padding-right:0.75rem}.pt-1{padding-top:0.25rem}.pt-2{padding-top:0.5rem}.pt-3{padding-top:0.75rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-5xl{font-size:3rem;line-height:1}.text-7xl{font-size:4.5rem;line-height:1}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-normal{font-weight:400}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-amber-500{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-blue-100{--tw-text-opacity:1;color:rgb(219 234 254 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-blue-800{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-emerald-500{--tw-text-opacity:1;color:rgb(16 185 129 / var(--tw-text-opacity, 1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/10{color:rgb(255 255 255 / 0.1)}.line-through{-webkit-text-decoration-line:line-through;text-decoration-line:line-through}.opacity-60{opacity:0.6}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.ring-amber-400{--tw-ring-opacity:1;--tw-ring-color:rgb(251 191 36 / var(--tw-ring-opacity, 1))}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-500{transition-duration:500ms}.hover\:bg-blue-100:hover{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.hover\:bg-red-100:hover{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-100:hover{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-200:hover{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.hover\:text-blue-600:hover{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.hover\:text-red-500:hover{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.hover\:text-red-600:hover{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.hover\:text-slate-600:hover{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.hover\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-0:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-blue-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(59 130 246 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:items-center{align-items:center}.sm\:rounded-2xl{border-radius:1rem}.sm\:p-4{padding:1rem}}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;background-color:#f1f5f9;user-select:none;-webkit-tap-highlight-color:transparent}
+.ic{display:inline-block;width:1em;height:1em;vertical-align:-0.125em;flex-shrink:0}
+</style>
+    <style>
+        /* Custom scrollbar & mobile frame setup */
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #f1f5f9;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        /* Mobile container emulation on desktop */
+        .app-container {
+            max-width: 480px;
+            min-height: 100vh;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        /* Ripple & active state effect */
+        .btn-act:active {
+            transform: scale(0.97);
+        }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <div class="app-container pb-20">
+        
+        <!-- HEADER TOP BAR -->
+        <header class="sticky top-0 z-30 bg-blue-600 text-white px-5 py-4 shadow-md flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="bg-white text-blue-600 w-8 h-8 rounded-lg flex items-center justify-center font-bold text-lg shadow-sm">
+                    <svg class="ic font-bold text-sm" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M96 512l320 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-66.7c18.6-6.6 32-24.4 32-45.3l0-288c0-26.5-21.5-48-48-48l-48 0 0 169.4c0 12.5-10.1 22.6-22.6 22.6-6 0-11.8-2.4-16-6.6L272 144 230.6 185.4c-4.2 4.2-10 6.6-16 6.6-12.5 0-22.6-10.1-22.6-22.6L192 0 96 0C43 0 0 43 0 96L0 416c0 53 43 96 96 96zM64 416c0-17.7 14.3-32 32-32l256 0 0 64-256 0c-17.7 0-32-14.3-32-32z"/></svg>
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg leading-tight">StudyTrack</h1>
+                    <p class="text-xs text-blue-100">SMK Learning Tracker</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-2">
+                <span id="header-date" class="text-xs bg-blue-700/60 px-2.5 py-1 rounded-full border border-blue-400/30">
+                    Senin, 2 Nov
+                </span>
+            </div>
+        </header>
+
+        <div id="session-bar" onclick="switchTab('belajar')" class="hidden cursor-pointer bg-amber-400 text-slate-900 text-xs font-bold px-4 py-2 flex items-center justify-between">
+            <span class="flex items-center space-x-2"><svg class="ic " viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg><span id="session-bar-text">Sesi berjalan</span></span>
+            <span id="session-bar-time" class="font-mono">00:00:00</span>
+        </div>
+
+
+        <!-- MAIN CONTENT CONTAINER -->
+        <main id="main-content" class="flex-1 p-4 overflow-y-auto">
+            
+            <!-- SECTION 1: DASHBOARD -->
+            <section id="tab-dashboard" class="tab-page space-y-4">
+                <!-- Welcome Banner -->
+                <div class="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-4 text-white shadow-lg relative overflow-hidden">
+                    <div class="relative z-10">
+                        <p class="text-xs font-medium text-blue-100">Semangat Belajar!</p>
+                        <h2 class="text-xl font-bold mt-0.5">Target Hari Ini</h2>
+                        <div class="mt-3">
+                            <div class="flex justify-between text-xs mb-1">
+                                <span id="dash-target-text">0 / 60 Menit</span>
+                                <span id="dash-target-percent">0%</span>
+                            </div>
+                            <div class="w-full bg-blue-900/40 rounded-full h-2.5 overflow-hidden">
+                                <div id="dash-target-bar" class="bg-amber-400 h-2.5 rounded-full transition-all duration-500" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <svg class="ic absolute -right-3 -bottom-3 text-7xl text-white/10" viewBox="0 0 576 512" fill="currentColor" aria-hidden="true"><path d="M48 195.8l209.2 86.1c9.8 4 20.2 6.1 30.8 6.1s21-2.1 30.8-6.1l242.4-99.8c9-3.7 14.8-12.4 14.8-22.1s-5.8-18.4-14.8-22.1L318.8 38.1C309 34.1 298.6 32 288 32s-21 2.1-30.8 6.1L14.8 137.9C5.8 141.6 0 150.3 0 160L0 456c0 13.3 10.7 24 24 24s24-10.7 24-24l0-260.2zm48 71.7L96 384c0 53 86 96 192 96s192-43 192-96l0-116.6-142.9 58.9c-15.6 6.4-32.2 9.7-49.1 9.7s-33.5-3.3-49.1-9.7L96 267.4z"/></svg>
+                </div>
+
+                <!-- Quick Action Button -->
+                <button onclick="switchTab('belajar')" class="w-full btn-act bg-blue-50 border border-blue-200 hover:bg-blue-100 text-blue-700 p-3.5 rounded-xl flex items-center justify-between shadow-sm transition">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold shadow">
+                            <svg class="ic " viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M91.2 36.9c-12.4-6.8-27.4-6.5-39.6 .7S32 57.9 32 72l0 368c0 14.1 7.5 27.2 19.6 34.4s27.2 7.5 39.6 .7l336-184c12.8-7 20.8-20.5 20.8-35.1s-8-28.1-20.8-35.1l-336-184z"/></svg>
+                        </div>
+                        <div class="text-left">
+                            <h3 class="font-bold text-sm text-slate-800">Mulai Belajar Mandiri</h3>
+                            <p class="text-xs text-slate-500">Target minimal 15 menit per mapel</p>
+                        </div>
+                    </div>
+                    <svg class="ic text-slate-400 text-sm" viewBox="0 0 320 512" fill="currentColor" aria-hidden="true"><path d="M311.1 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L243.2 256 73.9 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                </button>
+
+                
+                <button onclick="switchTab('pr')" class="w-full btn-act bg-white border border-slate-100 p-3.5 rounded-xl flex items-center justify-between shadow-sm text-left">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-lg bg-amber-50 text-amber-500 flex items-center justify-center font-bold"><svg class="ic " viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M311.4 32l8.6 0c35.3 0 64 28.7 64 64l0 352c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l8.6 0C83.6 12.9 104.3 0 128 0L256 0c23.7 0 44.4 12.9 55.4 32zM248 112c13.3 0 24-10.7 24-24s-10.7-24-24-24L136 64c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0zM128 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm32 0c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0c-13.3 0-24 10.7-24 24zm0 128c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0c-13.3 0-24 10.7-24 24zM96 416a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg></div>
+                        <div>
+                            <h3 id="dash-pr-title" class="font-bold text-sm text-slate-800">0 PR belum selesai</h3>
+                            <p id="dash-pr-sub" class="text-xs text-slate-500">Belum ada PR dicatat</p>
+                        </div>
+                    </div>
+                    <svg class="ic text-slate-400 text-sm" viewBox="0 0 320 512" fill="currentColor" aria-hidden="true"><path d="M311.1 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L243.2 256 73.9 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                </button>
+
+                <!-- Metric Summary Grid -->
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-100 shadow-sm flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center font-bold">
+                            <svg class="ic " viewBox="0 0 576 512" fill="currentColor" aria-hidden="true"><path d="M56 225.6L32.4 296.2 32.4 96c0-35.3 28.7-64 64-64l138.7 0c13.8 0 27.3 4.5 38.4 12.8l38.4 28.8c5.5 4.2 12.3 6.4 19.2 6.4l117.3 0c35.3 0 64 28.7 64 64l0 16-365.4 0c-41.3 0-78 26.4-91.1 65.6zM477.8 448L99 448c-32.8 0-55.9-32.1-45.5-63.2l48-144C108 221.2 126.4 208 147 208l378.8 0c32.8 0 55.9 32.1 45.5 63.2l-48 144c-6.5 19.6-24.9 32.8-45.5 32.8z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 font-medium">Total Materi</p>
+                            <h4 id="dash-total-materi" class="text-lg font-extrabold text-slate-800">0</h4>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-100 shadow-sm flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-lg bg-red-50 text-red-500 flex items-center justify-center font-bold">
+                            <svg class="ic " viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M256 0c14.7 0 28.2 8.1 35.2 21l216 400c6.7 12.4 6.4 27.4-.8 39.5S486.1 480 472 480L40 480c-14.1 0-27.2-7.4-34.4-19.5s-7.5-27.1-.8-39.5l216-400c7-12.9 20.5-21 35.2-21zm0 352a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm0-192c-18.2 0-32.7 15.5-31.4 33.7l7.4 104c.9 12.5 11.4 22.3 23.9 22.3 12.6 0 23-9.7 23.9-22.3l7.4-104c1.3-18.2-13.1-33.7-31.4-33.7z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 font-medium">Belum Paham</p>
+                            <h4 id="dash-belum-paham" class="text-lg font-extrabold text-slate-800">0</h4>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-100 shadow-sm flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-lg bg-amber-50 text-amber-500 flex items-center justify-center font-bold">
+                            <svg class="ic " viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 font-medium">Hari Ini</p>
+                            <h4 id="dash-waktu-hari-ini" class="text-lg font-extrabold text-slate-800">0m</h4>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-100 shadow-sm flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-500 flex items-center justify-center font-bold">
+                            <svg class="ic " viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M256 512a256 256 0 1 1 0-512 256 256 0 1 1 0 512zM374 145.7c-10.7-7.8-25.7-5.4-33.5 5.3L221.1 315.2 169 263.1c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l72 72c5 5 11.8 7.5 18.8 7s13.4-4.1 17.5-9.8L379.3 179.2c7.8-10.7 5.4-25.7-5.3-33.5z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 font-medium">Menguasai</p>
+                            <h4 id="dash-menguasai" class="text-lg font-extrabold text-slate-800">0</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weekly Mini Tracker -->
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">Aktivitas Minggu Ini</h3>
+                    <div id="dash-weekly-days" class="grid grid-cols-7 gap-1.5 text-center">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+
+                <!-- Recent Learning Logs -->
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
+                    <div class="flex justify-between items-center mb-3">
+                        <h3 class="text-sm font-bold text-slate-800">Aktivitas Belajar Terakhir</h3>
+                        <button onclick="switchTab('statistik')" class="text-xs text-blue-600 font-medium">Lihat Semua</button>
+                    </div>
+                    <div id="dash-recent-logs" class="space-y-2">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 2: MATERI & KESULITAN -->
+            <section id="tab-materi" class="tab-page hidden space-y-4">
+                <!-- Top Toolbar -->
+                <div class="flex justify-between items-center gap-2">
+                    <div class="relative flex-1">
+                        <svg class="ic absolute left-3 top-3 text-slate-400 text-xs" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376C296.3 401.1 253.9 416 208 416 93.1 416 0 322.9 0 208S93.1 0 208 0 416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                        <input type="text" id="materi-search" oninput="renderMateriList()" placeholder="Cari materi / mapel..." class="w-full pl-8 pr-3 py-2 bg-slate-100 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <button onclick="openMateriModal()" class="btn-act bg-blue-600 text-white text-xs px-3 py-2 rounded-lg font-medium shadow flex items-center space-x-1.5">
+                        <svg class="ic " viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M256 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 160-160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0 0-160z"/></svg>
+                        <span>Tambah</span>
+                    </button>
+                </div>
+
+                <!-- Subject Filter Chips -->
+                <div id="materi-filter-chips" class="flex space-x-2 overflow-x-auto hide-scrollbar py-1 text-xs">
+                    <!-- Populated by JS -->
+                </div>
+
+                <!-- List of Materials -->
+                <div id="materi-list-container" class="space-y-3">
+                    <!-- Cards Populated by JS -->
+                </div>
+            </section>
+
+            <!-- SECTION 3: BELAJAR & TIMER (ALUR BELAJAR MANDIRI) -->
+            <section id="tab-belajar" class="tab-page hidden space-y-4">
+                
+                <div class="bg-white p-4 rounded-2xl border border-slate-100 shadow-sm space-y-4">
+                    <div class="text-center">
+                        <span class="inline-block px-3 py-1 bg-blue-50 text-blue-600 text-xs font-semibold rounded-full mb-1">
+                            Sistem Belajar Mandiri SMK
+                        </span>
+                        <h2 class="text-lg font-bold text-slate-800">Fokus & Perbaiki Kesulitan</h2>
+                        <p class="text-xs text-slate-500">Target minimal 15 menit per topik materi</p>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-1 bg-slate-100 p-1 rounded-lg text-xs">
+                        <button id="mode-materi" onclick="setStudyMode('materi')" class="py-1.5 rounded-md font-bold">Belajar Materi</button>
+                        <button id="mode-pr" onclick="setStudyMode('pr')" class="py-1.5 rounded-md font-bold">Kerjakan PR</button>
+                    </div>
+
+                    <!-- Step 1: Select Mapel & Materi -->
+                    <div id="timer-setup-section" class="space-y-3 bg-slate-50 p-3.5 rounded-xl border border-slate-200"><div id="setup-materi" class="space-y-3">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 mb-1">1. Pilih Mata Pelajaran</label>
+                            <select id="timer-select-mapel" onchange="onTimerMapelChange()" class="w-full p-2.5 bg-white border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                                <option value="">-- Pilih Mata Pelajaran --</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 mb-1">2. Pilih Materi Target</label>
+                            <select id="timer-select-materi" onchange="onTimerMateriChange()" class="w-full p-2.5 bg-white border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none" disabled>
+                                <option value="">-- Pilih Materi --</option>
+                            </select>
+                        </div>
+
+                        <!-- Difficulties checklist view for chosen material -->
+                        <div id="timer-diff-preview" class="hidden text-xs bg-white p-3 rounded-lg border border-slate-200 space-y-1.5">
+                            <span class="font-bold text-slate-700 block">Fokus Kesulitan yang Belum Dipahami:</span>
+                            <ul id="timer-diff-list" class="list-disc pl-4 space-y-1 text-slate-600"></ul></div></div>
+                        <div id="setup-pr" class="hidden space-y-2">
+                            <label class="block text-xs font-bold text-slate-600 mb-1">Pilih PR yang dikerjakan</label>
+                            <select id="timer-select-pr" onchange="renderPRTimerInfo()" class="w-full p-2.5 bg-white border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                                <option value="">-- Pilih PR --</option>
+                            </select>
+                            <p id="pr-timer-info" class="text-[11px] text-slate-500"></p>
+                        </div>
+                    </div>
+
+                    <!-- Stopwatch / Timer Display -->
+                    <div class="text-center py-4 bg-slate-900 rounded-2xl text-white shadow-inner relative overflow-hidden">
+                        <div class="text-xs font-semibold uppercase tracking-widest text-slate-400 mb-1">Durasi Belajar</div>
+                        <div id="timer-display" class="text-5xl font-mono font-bold tracking-tight text-amber-400">00:00:00</div>
+                        <p id="timer-target-status" class="text-xs text-slate-400 mt-2">Target min 15:00 menit</p>
+                        
+                        <!-- Minimal 15 min alert banner -->
+                        <div id="timer-alert-15min" class="hidden mt-2 bg-emerald-500 text-white text-xs py-1 px-3 rounded-full inline-flex items-center space-x-1 animate-pulse">
+                            <svg class="ic " viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M256 512a256 256 0 1 1 0-512 256 256 0 1 1 0 512zM374 145.7c-10.7-7.8-25.7-5.4-33.5 5.3L221.1 315.2 169 263.1c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l72 72c5 5 11.8 7.5 18.8 7s13.4-4.1 17.5-9.8L379.3 179.2c7.8-10.7 5.4-25.7-5.3-33.5z"/></svg>
+                            <span>Target 15 Menit Tercapai!</span>
+                        </div>
+                    </div>
+
+                    <!-- Timer Controls -->
+                    <div class="flex items-center justify-center space-x-3">
+                        <button id="btn-timer-start" onclick="startTimer()" class="btn-act flex-1 bg-blue-600 text-white py-3 rounded-xl font-bold text-sm shadow-md flex items-center justify-center space-x-2">
+                            <svg class="ic " viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M91.2 36.9c-12.4-6.8-27.4-6.5-39.6 .7S32 57.9 32 72l0 368c0 14.1 7.5 27.2 19.6 34.4s27.2 7.5 39.6 .7l336-184c12.8-7 20.8-20.5 20.8-35.1s-8-28.1-20.8-35.1l-336-184z"/></svg>
+                            <span>Mulai Belajar</span>
+                        </button>
+                        <button id="btn-timer-pause" onclick="pauseTimer()" class="btn-act hidden flex-1 bg-amber-500 text-white py-3 rounded-xl font-bold text-sm shadow-md flex items-center justify-center space-x-2">
+                            <svg class="ic " viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M48 32C21.5 32 0 53.5 0 80L0 432c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-352c0-26.5-21.5-48-48-48L48 32zm224 0c-26.5 0-48 21.5-48 48l0 352c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-352c0-26.5-21.5-48-48-48l-64 0z"/></svg>
+                            <span>Jeda</span>
+                        </button>
+                        <button id="btn-timer-stop" onclick="stopTimer()" class="btn-act bg-red-500 text-white p-3 rounded-xl font-bold text-sm shadow-md flex items-center justify-center" title="Selesai & Catat">
+                            <svg class="ic text-lg" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32z"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Form Record Post-Study (Hidden until stopped) -->
+                <div id="post-study-modal" class="hidden bg-white p-4 rounded-2xl border border-blue-200 shadow-xl space-y-3">
+                    <div class="border-b border-slate-100 pb-2">
+                        <h3 class="font-bold text-slate-800 text-sm">Catat Hasil Sesi Belajar</h3>
+                        <p class="text-xs text-slate-500">Perbarui pemahamanmu setelah belajar</p>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">Catatan Ringkas Hasil Belajar</label>
+                        <textarea id="post-study-notes" rows="2" placeholder="Contoh: Sudah mengerti rumus dasar, perlu latihan soal cerita..." class="w-full p-2.5 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none"></textarea>
+                    </div>
+
+                    <div>
+                        <label id="post-study-diff-label" class="block text-xs font-semibold text-slate-600 mb-1.5">Perbarui Indikator Pemahaman Topik ini:</label>
+                        <div id="post-study-diff-indicators" class="space-y-2">
+                            <!-- JS loads difficulties with status dropdowns -->
+                        </div>
+                    </div>
+
+                    <label id="post-study-pr-done-wrap" class="hidden flex items-center space-x-2 text-xs font-semibold text-slate-700 bg-emerald-50 border border-emerald-200 rounded-lg p-2.5">
+                        <input type="checkbox" id="post-study-pr-done" class="w-4 h-4"> <span>PR ini sudah selesai</span>
+                    </label>
+                    <div class="flex space-x-2 pt-2">
+                        <button onclick="cancelPostStudy()" class="w-1/3 py-2 text-xs bg-slate-100 font-semibold text-slate-600 rounded-lg">Batal</button>
+                        <button onclick="savePostStudyLog()" class="w-2/3 py-2 text-xs bg-emerald-600 font-bold text-white rounded-lg shadow">Simpan Hasil Belajar</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION PR -->
+            <section id="tab-pr" class="tab-page hidden space-y-4">
+                <div class="flex justify-between items-center gap-2">
+                    <div class="flex-1 grid grid-cols-2 gap-1 bg-slate-100 p-1 rounded-lg text-xs">
+                        <button id="pr-f-active" onclick="setPRFilter('active')" class="py-1.5 rounded-md font-bold">Aktif</button>
+                        <button id="pr-f-done" onclick="setPRFilter('done')" class="py-1.5 rounded-md font-bold">Selesai</button>
+                    </div>
+                    <button onclick="openPRModal()" class="btn-act bg-blue-600 text-white text-xs px-3 py-2 rounded-lg font-medium shadow flex items-center space-x-1.5">
+                        <svg class="ic " viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M256 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 160-160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0 0-160z"/></svg><span>Tambah PR</span>
+                    </button>
+                </div>
+                <div id="pr-summary" class="text-xs text-slate-500"></div>
+                <div id="pr-list" class="space-y-3"></div>
+            </section>
+
+            <!-- SECTION 4: STATISTIK & KALENDER -->
+            <section id="tab-statistik" class="tab-page hidden space-y-4">
+                
+                <!-- Interactive Calendar Card -->
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
+                    <div class="flex justify-between items-center mb-3">
+                        <h3 class="font-bold text-xs uppercase tracking-wider text-slate-500">Kalender Belajar</h3>
+                        <div class="flex items-center space-x-2 text-xs font-bold">
+                            <button onclick="changeCalMonth(-1)" class="p-1 hover:bg-slate-100 rounded"><svg class="ic " viewBox="0 0 320 512" fill="currentColor" aria-hidden="true"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg></button>
+                            <span id="cal-month-title">November 2026</span>
+                            <button onclick="changeCalMonth(1)" class="p-1 hover:bg-slate-100 rounded"><svg class="ic " viewBox="0 0 320 512" fill="currentColor" aria-hidden="true"><path d="M311.1 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L243.2 256 73.9 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg></button>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-7 gap-1 text-center text-xs font-semibold text-slate-400 mb-1">
+                        <div>Min</div><div>Sen</div><div>Sel</div><div>Rab</div><div>Kam</div><div>Jum</div><div>Sab</div>
+                    </div>
+                    <div id="cal-days-grid" class="grid grid-cols-7 gap-1 text-xs">
+                        <!-- Generated by JS -->
+                    </div>
+                </div>
+
+                <!-- Calendar Selected Date Details -->
+                <div id="cal-detail-card" class="bg-blue-50 p-3.5 rounded-xl border border-blue-200 hidden space-y-2">
+                    <div class="flex justify-between items-center border-b border-blue-200/60 pb-1.5">
+                        <h4 id="cal-detail-date" class="font-bold text-xs text-blue-800">Riwayat Tanggal</h4>
+                        <span id="cal-detail-total" class="text-xs bg-blue-600 text-white font-semibold px-2 py-0.5 rounded-full">0m</span>
+                    </div>
+                    <div id="cal-detail-list" class="space-y-2 text-xs text-slate-700">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+
+                <!-- Chart 1: Waktu Belajar -->
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm space-y-2">
+                    <div class="flex justify-between items-center">
+                        <h3 class="font-bold text-xs uppercase tracking-wider text-slate-500">Grafik Durasi Belajar (Menit)</h3>
+                        <select id="chart-period-filter" onchange="renderCharts()" class="text-xs bg-slate-100 border-none rounded px-2 py-1 focus:ring-0">
+                            <option value="7">7 Hari Terakhir</option>
+                            <option value="30">30 Hari Terakhir</option>
+                        </select>
+                    </div>
+                    <div class="h-48 w-full">
+                        <canvas id="chartWaktuBelajar"></canvas>
+                    </div>
+                </div>
+
+                <!-- Chart 2: Status Pemahaman -->
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm space-y-2">
+                    <h3 class="font-bold text-xs uppercase tracking-wider text-slate-500">Distribusi Status Pemahaman Materi</h3>
+                    <div class="h-44 flex justify-center">
+                        <canvas id="chartStatusPemahaman"></canvas>
+                    </div>
+                </div>
+
+                <!-- Top Difficult Subjects -->
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
+                    <h3 class="font-bold text-xs uppercase tracking-wider text-slate-500 mb-2">Mapel Paling Membutuhkan Perhatian</h3>
+                    <div id="stat-difficult-list" class="space-y-2 text-xs">
+                        <!-- JS populated -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 5: JADWAL & PENGATURAN -->
+            <section id="tab-pengaturan" class="tab-page hidden space-y-4">
+                
+                <!-- Schedule Editor Accordion -->
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm space-y-3">
+                    <div class="flex justify-between items-center">
+                        <h3 class="font-bold text-sm text-slate-800">Jadwal Pelajaran Mingguan</h3>
+                        <span class="text-xs text-slate-400">Senin - Jumat</span>
+                    </div>
+
+                    <!-- Day tabs -->
+                    <div id="schedule-day-tabs" class="flex space-x-1 bg-slate-100 p-1 rounded-lg text-xs">
+                        <button onclick="selectScheduleDay('SENIN')" class="sched-tab flex-1 py-1.5 rounded-md font-bold text-slate-600">SEN</button>
+                        <button onclick="selectScheduleDay('SELASA')" class="sched-tab flex-1 py-1.5 rounded-md font-bold text-slate-600">SEL</button>
+                        <button onclick="selectScheduleDay('RABU')" class="sched-tab flex-1 py-1.5 rounded-md font-bold text-slate-600">RAB</button>
+                        <button onclick="selectScheduleDay('KAMIS')" class="sched-tab flex-1 py-1.5 rounded-md font-bold text-slate-600">KAM</button>
+                        <button onclick="selectScheduleDay('JUMAT')" class="sched-tab flex-1 py-1.5 rounded-md font-bold text-slate-600">JUM</button>
+                    </div>
+
+                    <!-- Selected Day Subjects List -->
+                    <div id="schedule-day-content" class="space-y-2 pt-1">
+                        <!-- Populated by JS -->
+                    </div>
+
+                    <button onclick="openAddSubjectModal()" class="w-full py-2 bg-slate-100 text-slate-700 text-xs font-semibold rounded-lg hover:bg-slate-200 border border-dashed border-slate-300">
+                        + Tambah Mapel ke Hari Ini
+                    </button>
+                </div>
+
+                <!-- Daily Target Settings -->
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm space-y-3">
+                    <h3 class="font-bold text-sm text-slate-800">Target Belajar Harian</h3>
+                    <div class="flex items-center space-x-3">
+                        <input type="number" id="setting-target-min" min="15" max="300" step="5" class="w-24 p-2 bg-slate-100 border border-slate-300 rounded-lg text-xs font-bold text-center focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <span class="text-xs text-slate-500">Menit per hari</span>
+                        <button onclick="saveTargetSetting()" class="ml-auto btn-act bg-blue-600 text-white text-xs px-3 py-2 rounded-lg font-bold">Simpan</button>
+                    </div>
+                </div>
+
+                <!-- Data Backup & Restore -->
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm space-y-3">
+                    <h3 class="font-bold text-sm text-slate-800">Cadangan & Pemulihan Data</h3>
+                    <p class="text-xs text-slate-500">Simpan cadangan data aplikasi ke file JSON atau pulihkan data dari file sebelumnya.</p>
+                    <div class="grid grid-cols-2 gap-2">
+                        <button onclick="exportDataJSON()" class="btn-act bg-slate-800 text-white text-xs py-2.5 rounded-lg font-bold flex items-center justify-center space-x-1.5">
+                            <svg class="ic " viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M256 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 210.7-41.4-41.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l96 96c12.5 12.5 32.8 12.5 45.3 0l96-96c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 242.7 256 32zM64 320c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-46.9 0-56.6 56.6c-31.2 31.2-81.9 31.2-113.1 0L110.9 320 64 320zm304 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg>
+                            <span>Ekspor Data</span>
+                        </button>
+                        <label class="btn-act bg-slate-100 border border-slate-300 text-slate-700 text-xs py-2.5 rounded-lg font-bold flex items-center justify-center space-x-1.5 cursor-pointer">
+                            <svg class="ic " viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M256 109.3L256 320c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-210.7-41.4 41.4c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l96-96c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 109.3zM224 400c44.2 0 80-35.8 80-80l80 0c35.3 0 64 28.7 64 64l0 32c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64l0-32c0-35.3 28.7-64 64-64l80 0c0 44.2 35.8 80 80 80zm144 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"/></svg>
+                            <span>Impor Data</span>
+                            <input type="file" id="import-json-file" accept=".json" onchange="importDataJSON(event)" class="hidden">
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Clear Data -->
+                <div class="bg-white p-4 rounded-xl border border-red-100 shadow-sm space-y-2">
+                    <h3 class="font-bold text-sm text-red-600">Reset Data</h3>
+                    <p class="text-xs text-slate-500">Kembalikan data aplikasi ke kondisi awal pabrikan SMK.</p>
+                    <button onclick="resetDataDefault()" class="text-xs bg-red-50 text-red-600 border border-red-200 px-3 py-2 rounded-lg font-bold hover:bg-red-100">
+                        Reset Ke Data Awal
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <!-- BOTTOM NAVIGATION BAR -->
+        <nav class="fixed bottom-0 left-0 right-0 z-40 max-w-[480px] mx-auto bg-white border-t border-slate-200 px-2 py-1.5 flex justify-around items-center shadow-lg">
+            <button onclick="switchTab('dashboard')" id="nav-dashboard" class="nav-btn flex-1 flex flex-col items-center py-1 text-blue-600 font-bold transition">
+                <svg class="ic text-lg mb-0.5" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M277.8 8.6c-12.3-11.4-31.3-11.4-43.5 0l-224 208c-9.6 9-12.8 22.9-8 35.1S18.8 272 32 272l16 0 0 176c0 35.3 28.7 64 64 64l288 0c35.3 0 64-28.7 64-64l0-176 16 0c13.2 0 25-8.1 29.8-20.3s1.6-26.2-8-35.1l-224-208zM240 320l32 0c26.5 0 48 21.5 48 48l0 96-128 0 0-96c0-26.5 21.5-48 48-48z"/></svg>
+                <span class="text-[10px]">Utama</span>
+            </button>
+            <button onclick="switchTab('materi')" id="nav-materi" class="nav-btn flex-1 flex flex-col items-center py-1 text-slate-400 font-medium transition">
+                <svg class="ic text-lg mb-0.5" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M384 512L96 512c-53 0-96-43-96-96L0 96C0 43 43 0 96 0L400 0c26.5 0 48 21.5 48 48l0 288c0 20.9-13.4 38.7-32 45.3l0 66.7c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0zM96 384c-17.7 0-32 14.3-32 32s14.3 32 32 32l256 0 0-64-256 0zm32-232c0 13.3 10.7 24 24 24l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-176 0c-13.3 0-24 10.7-24 24zm24 72c-13.3 0-24 10.7-24 24s10.7 24 24 24l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-176 0z"/></svg>
+                <span class="text-[10px]">Materi</span>
+            </button>
+            <button onclick="switchTab('pr')" id="nav-pr" class="nav-btn flex-1 flex flex-col items-center py-1 text-slate-400 font-medium transition">
+                <svg class="ic text-lg mb-0.5" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M311.4 32l8.6 0c35.3 0 64 28.7 64 64l0 352c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l8.6 0C83.6 12.9 104.3 0 128 0L256 0c23.7 0 44.4 12.9 55.4 32zM248 112c13.3 0 24-10.7 24-24s-10.7-24-24-24L136 64c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0zM128 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm32 0c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0c-13.3 0-24 10.7-24 24zm0 128c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0c-13.3 0-24 10.7-24 24zM96 416a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
+                <span class="text-[10px]">PR</span>
+            </button>
+            <button onclick="switchTab('belajar')" id="nav-belajar" class="nav-btn flex-1 flex flex-col items-center py-1 text-slate-400 font-medium transition">
+                <div class="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center -mt-3 shadow-md border-2 border-white">
+                    <svg class="ic text-sm" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M168.5 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l32 0 0 25.3c-108 11.9-192 103.5-192 214.7 0 119.3 96.7 216 216 216s216-96.7 216-216c0-39.8-10.8-77.1-29.6-109.2l28.2-28.2c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-23.4 23.4c-32.9-30.2-75.2-50.3-122-55.5l0-25.3 32 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0zm80 184l0 104c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-104c0-13.3 10.7-24 24-24s24 10.7 24 24z"/></svg>
+                </div>
+                <span class="text-[10px] mt-0.5">Belajar</span>
+            </button>
+            <button onclick="switchTab('statistik')" id="nav-statistik" class="nav-btn flex-1 flex flex-col items-center py-1 text-slate-400 font-medium transition">
+                <svg class="ic text-lg mb-0.5" viewBox="0 0 576 512" fill="currentColor" aria-hidden="true"><path d="M512.4 240l-176 0c-17.7 0-32-14.3-32-32l0-176c0-17.7 14.4-32.2 31.9-29.9 107 14.2 191.8 99 206 206 2.3 17.5-12.2 31.9-29.9 31.9zM222.6 37.2c18.1-3.8 33.8 11 33.8 29.5l0 197.3c0 5.6 2 11 5.5 15.3L394 438.7c11.7 14.1 9.2 35.4-6.9 44.1-34.1 18.6-73.2 29.2-114.7 29.2-132.5 0-240-107.5-240-240 0-115.5 81.5-211.9 190.2-234.8zM477.8 288l64 0c18.5 0 33.3 15.7 29.5 33.8-10.2 48.4-35 91.4-69.6 124.2-12.3 11.7-31.6 9.2-42.4-3.9L374.9 340.4c-17.3-20.9-2.4-52.4 24.6-52.4l78.2 0z"/></svg>
+                <span class="text-[10px]">Statistik</span>
+            </button>
+            <button onclick="switchTab('pengaturan')" id="nav-pengaturan" class="nav-btn flex-1 flex flex-col items-center py-1 text-slate-400 font-medium transition">
+                <svg class="ic text-lg mb-0.5" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M195.1 9.5C198.1-5.3 211.2-16 226.4-16l59.8 0c15.2 0 28.3 10.7 31.3 25.5L332 79.5c14.1 6 27.3 13.7 39.3 22.8l67.8-22.5c14.4-4.8 30.2 1.2 37.8 14.4l29.9 51.8c7.6 13.2 4.9 29.8-6.5 39.9L447 233.3c.9 7.4 1.3 15 1.3 22.7s-.5 15.3-1.3 22.7l53.4 47.5c11.4 10.1 14 26.8 6.5 39.9l-29.9 51.8c-7.6 13.1-23.4 19.2-37.8 14.4l-67.8-22.5c-12.1 9.1-25.3 16.7-39.3 22.8l-14.4 69.9c-3.1 14.9-16.2 25.5-31.3 25.5l-59.8 0c-15.2 0-28.3-10.7-31.3-25.5l-14.4-69.9c-14.1-6-27.2-13.7-39.3-22.8L73.5 432.3c-14.4 4.8-30.2-1.2-37.8-14.4L5.8 366.1c-7.6-13.2-4.9-29.8 6.5-39.9l53.4-47.5c-.9-7.4-1.3-15-1.3-22.7s.5-15.3 1.3-22.7L12.3 185.8c-11.4-10.1-14-26.8-6.5-39.9L35.7 94.1c7.6-13.2 23.4-19.2 37.8-14.4l67.8 22.5c12.1-9.1 25.3-16.7 39.3-22.8L195.1 9.5zM256.3 336a80 80 0 1 0 -.6-160 80 80 0 1 0 .6 160z"/></svg>
+                <span class="text-[10px]">Jadwal</span>
+            </button>
+        </nav>
+
+        <!-- MODALS -->
+
+        <!-- Modal Tambah/Edit Materi -->
+        <div id="modal-materi" class="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm hidden flex items-end sm:items-center justify-center p-0 sm:p-4">
+            <div class="bg-white w-full max-w-md rounded-t-2xl sm:rounded-2xl max-h-[90vh] overflow-y-auto p-5 space-y-4 shadow-2xl animate-in slide-in-from-bottom">
+                <div class="flex justify-between items-center border-b border-slate-100 pb-3">
+                    <h3 id="modal-materi-title" class="font-bold text-base text-slate-800">Tambah Materi Baru</h3>
+                    <button onclick="closeMateriModal()" class="text-slate-400 hover:text-slate-600 text-lg"><svg class="ic " viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192.5 301.3 329.9 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.8 256 375.1 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7 55.1 73.4z"/></svg></button>
+                </div>
+                
+                <form id="form-materi" onsubmit="saveMateri(event)" class="space-y-3">
+                    <input type="hidden" id="materi-id">
+                    
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Mata Pelajaran *</label>
+                        <input type="text" id="materi-mapel" required placeholder="Contoh: Matematika, IPAS, Bahasa Inggris" class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Judul Materi *</label>
+                        <input type="text" id="materi-judul" required placeholder="Contoh: Bentuk Akar & Eksponen" class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-2">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Tanggal Diberikan</label>
+                            <input type="date" id="materi-tanggal" required class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Sumber Materi</label>
+                            <select id="materi-sumber" class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                                <option value="Buku">Buku Paket</option>
+                                <option value="Pembahasan Guru">Pembahasan Guru</option>
+                                <option value="PDF">Dokumen PDF</option>
+                                <option value="PowerPoint">PowerPoint (PPT)</option>
+                                <option value="Word">File Word</option>
+                                <option value="Papan Tulis">Catatan Papan Tulis</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Lampiran (Nama File / Link / Foto opsional)</label>
+                        <input type="text" id="materi-lampiran" placeholder="Nama file dokumen atau link referensi..." class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Catatan Tambahan</label>
+                        <textarea id="materi-catatan" rows="2" placeholder="Catatan tugas, halaman buku, dll..." class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none"></textarea>
+                    </div>
+
+                    <div class="border-t border-slate-100 pt-3 flex space-x-2">
+                        <button type="button" onclick="closeMateriModal()" class="w-1/3 py-2.5 text-xs bg-slate-100 font-semibold text-slate-600 rounded-lg">Batal</button>
+                        <button type="submit" class="w-2/3 py-2.5 text-xs bg-blue-600 font-bold text-white rounded-lg shadow">Simpan Materi</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Modal PR -->
+        <div id="modal-pr" class="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm hidden flex items-end sm:items-center justify-center p-0 sm:p-4">
+            <div class="bg-white w-full max-w-md rounded-t-2xl sm:rounded-2xl max-h-[90vh] overflow-y-auto p-5 space-y-4 shadow-2xl">
+                <div class="flex justify-between items-center border-b border-slate-100 pb-3">
+                    <h3 id="modal-pr-title" class="font-bold text-base text-slate-800">Tambah PR</h3>
+                    <button onclick="closePRModal()" class="text-slate-400 hover:text-slate-600 text-lg"><svg class="ic " viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192.5 301.3 329.9 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.8 256 375.1 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7 55.1 73.4z"/></svg></button>
+                </div>
+                <form onsubmit="savePR(event)" class="space-y-3">
+                    <input type="hidden" id="pr-id">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Mata Pelajaran *</label>
+                        <input type="text" id="pr-mapel" list="pr-mapel-list" required placeholder="Contoh: Matematika" class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                        <datalist id="pr-mapel-list"></datalist>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Judul / Isi PR *</label>
+                        <input type="text" id="pr-judul" required placeholder="Contoh: Soal no 1-10 halaman 45" class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Dikumpulkan Tanggal</label>
+                        <input type="date" id="pr-deadline" class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 mb-1">Catatan</label>
+                        <textarea id="pr-catatan" rows="2" placeholder="Opsional..." class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none"></textarea>
+                    </div>
+                    <div class="border-t border-slate-100 pt-3 flex space-x-2">
+                        <button type="button" onclick="closePRModal()" class="w-1/3 py-2.5 text-xs bg-slate-100 font-semibold text-slate-600 rounded-lg">Batal</button>
+                        <button type="submit" class="w-2/3 py-2.5 text-xs bg-blue-600 font-bold text-white rounded-lg shadow">Simpan PR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Modal Kelola Bagian Belum Dipahami (Kesulitan) -->
+        <div id="modal-diff" class="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm hidden flex items-end sm:items-center justify-center p-0 sm:p-4">
+            <div class="bg-white w-full max-w-md rounded-t-2xl sm:rounded-2xl max-h-[90vh] overflow-y-auto p-5 space-y-4 shadow-2xl">
+                <div class="flex justify-between items-center border-b border-slate-100 pb-3">
+                    <div>
+                        <h3 id="modal-diff-materi-title" class="font-bold text-sm text-slate-800">Bagian Belum Dipahami</h3>
+                        <p id="modal-diff-materi-sub" class="text-xs text-slate-500">Materi: -</p>
+                    </div>
+                    <button onclick="closeDiffModal()" class="text-slate-400 hover:text-slate-600 text-lg"><svg class="ic " viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192.5 301.3 329.9 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.8 256 375.1 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7 55.1 73.4z"/></svg></button>
+                </div>
+
+                <div class="space-y-3">
+                    <!-- Form input new difficulty item -->
+                    <div class="flex space-x-2">
+                        <input type="text" id="new-diff-text" placeholder="Tambah bagian yang belum dipahami..." class="flex-1 p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                        <button onclick="addDifficultyItem()" class="bg-blue-600 text-white px-3 py-2.5 rounded-lg text-xs font-bold shadow">
+                            + Tambah
+                        </button>
+                    </div>
+
+                    <!-- List of current difficulty items -->
+                    <div id="modal-diff-list" class="space-y-2.5 max-h-60 overflow-y-auto pr-1">
+                        <!-- Loaded dynamically -->
+                    </div>
+                </div>
+
+                <div class="pt-3 border-t border-slate-100">
+                    <button onclick="closeDiffModal()" class="w-full py-2.5 text-xs bg-slate-800 text-white font-bold rounded-lg">Selesai</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Custom Add Mapel to Schedule -->
+        <div id="modal-add-subject" class="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm hidden flex items-center justify-center p-4">
+            <div class="bg-white w-full max-w-xs rounded-2xl p-4 space-y-3 shadow-2xl">
+                <h3 class="font-bold text-sm text-slate-800">Tambah Mapel Jadwal</h3>
+                <input type="text" id="input-subject-name" placeholder="Nama Mata Pelajaran..." class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs">
+                <input type="text" id="input-subject-room" placeholder="Ruang / Jam (opsional)..." class="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs">
+                <div class="flex space-x-2 pt-1">
+                    <button onclick="closeAddSubjectModal()" class="w-1/2 py-2 text-xs bg-slate-100 font-semibold text-slate-600 rounded-lg">Batal</button>
+                    <button onclick="saveSubjectToSchedule()" class="w-1/2 py-2 text-xs bg-blue-600 font-bold text-white rounded-lg">Simpan</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MAIN JAVASCRIPT LOGIC -->
+    <script>
+        /* ==========================================================================
+           STATE & INITIAL DATA (LOCALSTORAGE PERSISTENCE)
+           ========================================================================== */
+
+        // Default Initial SMK Schedule Data
+        const DEFAULT_SCHEDULE = {
+            SENIN: [
+                { id: 's1', mapel: 'Upacara & Wali Kelas', room: 'Lap. Utama' },
+                { id: 's2', mapel: 'Pengaturan Khusus', room: 'Lab' }
+            ],
+            SELASA: [
+                { id: 's3', mapel: 'Sejarah', room: 'R.101' },
+                { id: 's4', mapel: 'Matematika', room: 'R.101' },
+                { id: 's5', mapel: 'IPAS', room: 'Lab IPA' },
+                { id: 's6', mapel: 'Informatika', room: 'Lab Komp' },
+                { id: 's7', mapel: 'Bahasa Inggris', room: 'R.101' }
+            ],
+            RABU: [
+                { id: 's8', mapel: 'IPAS', room: 'Lab IPA' },
+                { id: 's9', mapel: 'Bahasa Indonesia', room: 'R.101' },
+                { id: 's10', mapel: 'Olahraga', room: 'Lapangan' },
+                { id: 's11', mapel: 'PABP', room: 'R.101' },
+                { id: 's12', mapel: 'Bahasa Jawa', room: 'R.101' }
+            ],
+            KAMIS: [
+                { id: 's13', mapel: 'BK', room: 'R.BK' },
+                { id: 's14', mapel: 'Seni Musik', room: 'R.Seni' },
+                { id: 's15', mapel: 'Bahasa Inggris', room: 'R.101' },
+                { id: 's16', mapel: 'Bahasa Indonesia', room: 'R.101' },
+                { id: 's17', mapel: 'IPAS', room: 'Lab IPA' }
+            ],
+            JUMAT: [
+                { id: 's18', mapel: 'PP', room: 'R.101' },
+                { id: 's19', mapel: 'Matematika', room: 'R.101' }
+            ]
+        };
+
+        // Sample initial data if app loaded first time
+        const DEFAULT_MATERI = [
+            {
+                id: 'm1',
+                mapel: 'Matematika',
+                judul: 'Bentuk Akar & Eksponen',
+                tanggal: '2026-11-01',
+                sumber: 'Papan Tulis',
+                lampiran: 'Catatan_Bentuk_Akar.pdf',
+                catatan: 'Persiapan ulangan harian minggu depan.',
+                difficulties: [
+                    { id: 'd1', text: 'Menyederhanakan bentuk akar', status: 1 },
+                    { id: 'd2', text: 'Menentukan faktor kuadrat sempurna', status: 2 },
+                    { id: 'd3', text: 'Operasi penjumlahan bentuk akar', status: 1 }
+                ]
+            },
+            {
+                id: 'm2',
+                mapel: 'IPAS',
+                judul: 'Ekosistem dan Rantai Makanan',
+                tanggal: '2026-10-30',
+                sumber: 'Buku',
+                lampiran: 'Bab_3_IPAS.pdf',
+                catatan: 'Rangkuman bab 3',
+                difficulties: [
+                    { id: 'd4', text: 'Daur biogeokimia karbon dan nitrogen', status: 3 },
+                    { id: 'd5', text: 'Peran dekomposer dalam jaring makanan', status: 4 }
+                ]
+            },
+            {
+                id: 'm3',
+                mapel: 'Informatika',
+                judul: 'Algoritma Pemrograman & Flowchart',
+                tanggal: '2026-11-02',
+                sumber: 'PowerPoint',
+                lampiran: 'Slide_04_Algoritma.pptx',
+                catatan: 'Latihan buat flowchart perulangan',
+                difficulties: [
+                    { id: 'd6', text: 'Logika perulangan WHILE vs FOR', status: 2 }
+                ]
+            }
+        ];
+
+        const DEFAULT_LOGS = [
+            {
+                id: 'l1',
+                date: '2026-11-01',
+                mapel: 'Matematika',
+                materiTitle: 'Bentuk Akar & Eksponen',
+                durationMinutes: 20,
+                notes: 'Membaca ulang contoh soal penyederhanaan akar.'
+            },
+            {
+                id: 'l2',
+                date: '2026-10-31',
+                mapel: 'IPAS',
+                materiTitle: 'Ekosistem dan Rantai Makanan',
+                durationMinutes: 25,
+                notes: 'Menghafal siklus biogeokimia.'
+            }
+        ];
+
+        // Global State
+        let state = {
+            materi: [],
+            logs: [],
+            schedule: {},
+            dailyTargetMinutes: 60,
+            pr: [],
+            prFilter: 'active',
+            pendingPR: null,
+            activeTab: 'dashboard',
+            selectedFilterSubject: 'ALL',
+            selectedScheduleDay: 'SENIN'
+        };
+
+        // Active Timer Variables
+        // Sesi timer disimpan di localStorage berbasis TIMESTAMP, jadi tetap jalan walau aplikasi ditutup
+        const SESSION_KEY = 'studytrack_session';
+        let session = null;      // {mode, refId, mapel, title, accMs, startedAt, finishing}
+        let timerInterval = null;
+        let studyMode = 'materi';
+
+        // Tanggal lokal (bukan UTC) supaya tidak meleset tengah malam WIB
+        function localDateStr(d) {
+            d = d || new Date();
+            const p = n => String(n).padStart(2, '0');
+            return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+        }
+        function parseLocalDate(s) { const [y, m, d] = s.split('-').map(Number); return new Date(y, m - 1, d); }
+        function fmtMinutes(m) { return m < 60 ? `${m}m` : `${Math.floor(m / 60)}j ${m % 60}m`; }
+        function fmtClock(sec) {
+            const p = n => String(n).padStart(2, '0');
+            return `${p(Math.floor(sec / 3600))}:${p(Math.floor((sec % 3600) / 60))}:${p(sec % 60)}`;
+        }
+        function segStyle(el, active) {
+            el.classList.toggle('bg-white', active);
+            el.classList.toggle('text-blue-600', active);
+            el.classList.toggle('shadow-sm', active);
+            el.classList.toggle('text-slate-500', !active);
+        }
+
+
+        // Active Calendar View State
+        let calCurrentDate = new Date();
+
+        // Active Modal State
+        let activeDiffMateriId = null;
+
+        /* ==========================================================================
+           CORE APP INITIALIZATION
+           ========================================================================== */
+
+        window.onload = function() {
+            loadStateFromStorage();
+            loadSession();
+            initDateHeader();
+            renderDashboard();
+            renderMateriList();
+            setupTimerSelectors();
+            renderScheduleView();
+            renderCharts();
+            renderCalendar();
+            if (session && session.finishing) showPostStudyForm();
+        };
+
+        function loadStateFromStorage() {
+            const savedMateri = localStorage.getItem('studytrack_materi');
+            const savedLogs = localStorage.getItem('studytrack_logs');
+            const savedSched = localStorage.getItem('studytrack_schedule');
+            const savedTarget = localStorage.getItem('studytrack_target');
+
+            state.materi = savedMateri ? JSON.parse(savedMateri) : DEFAULT_MATERI;
+            state.logs = savedLogs ? JSON.parse(savedLogs) : DEFAULT_LOGS;
+            state.schedule = savedSched ? JSON.parse(savedSched) : DEFAULT_SCHEDULE;
+            state.dailyTargetMinutes = savedTarget ? parseInt(savedTarget) : 60;
+            try { state.pr = JSON.parse(localStorage.getItem('studytrack_pr') || '[]'); } catch (e) { state.pr = []; }
+            
+            document.getElementById('setting-target-min').value = state.dailyTargetMinutes;
+        }
+
+        function saveStateToStorage() {
+            localStorage.setItem('studytrack_materi', JSON.stringify(state.materi));
+            localStorage.setItem('studytrack_logs', JSON.stringify(state.logs));
+            localStorage.setItem('studytrack_schedule', JSON.stringify(state.schedule));
+            localStorage.setItem('studytrack_target', state.dailyTargetMinutes.toString());
+            localStorage.setItem('studytrack_pr', JSON.stringify(state.pr));
+        }
+
+        function initDateHeader() {
+            const options = { weekday: 'long', day: 'numeric', month: 'short' };
+            const todayStr = new Date().toLocaleDateString('id-ID', options);
+            document.getElementById('header-date').innerText = todayStr;
+        }
+
+        /* ==========================================================================
+           NAVIGATION & TABS
+           ========================================================================== */
+
+        function switchTab(tabName) {
+            state.activeTab = tabName;
+            
+            // Hide all tab pages
+            document.querySelectorAll('.tab-page').forEach(page => page.classList.add('hidden'));
+            
+            // Reset tab button colors
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.classList.remove('text-blue-600', 'font-bold');
+                btn.classList.add('text-slate-400', 'font-medium');
+            });
+
+            // Show active page & highlight button
+            const activePage = document.getElementById(`tab-${tabName}`);
+            if (activePage) activePage.classList.remove('hidden');
+
+            const activeBtn = document.getElementById(`nav-${tabName}`);
+            if (activeBtn) {
+                activeBtn.classList.remove('text-slate-400', 'font-medium');
+                activeBtn.classList.add('text-blue-600', 'font-bold');
+            }
+
+            // Refresh specific tab views upon navigation
+            if (tabName === 'dashboard') renderDashboard();
+            if (tabName === 'materi') renderMateriList();
+            if (tabName === 'belajar') setupTimerSelectors();
+            if (tabName === 'statistik') { renderCharts(); renderCalendar(); }
+            if (tabName === 'pengaturan') renderScheduleView();
+            if (tabName === 'pr') renderPR();
+            renderTimer();
+        }
+
+        /* ==========================================================================
+           TAB 1: DASHBOARD
+           ========================================================================== */
+
+        function renderDashboard() {
+            const todayStr = localDateStr();
+
+            // 1. Calculate today's study duration
+            const todayLogs = state.logs.filter(l => l.date === todayStr);
+            const todayMinutes = todayLogs.reduce((acc, curr) => acc + curr.durationMinutes, 0);
+
+            // Target Progress
+            const targetMin = state.dailyTargetMinutes;
+            const percent = Math.min(100, Math.round((todayMinutes / targetMin) * 100));
+            
+            document.getElementById('dash-target-text').innerText = `${todayMinutes} / ${targetMin} Menit`;
+            document.getElementById('dash-target-percent').innerText = `${percent}%`;
+            document.getElementById('dash-target-bar').style.width = `${percent}%`;
+
+            // 2. Aggregate Material Stats
+            let totalMateriCount = state.materi.length;
+            let totalBelumPaham = 0;
+            let totalMenguasai = 0;
+
+            state.materi.forEach(m => {
+                const status = calculateMateriOverallStatus(m);
+                if (status === 1) totalBelumPaham++;
+                if (status === 4) totalMenguasai++;
+            });
+
+            document.getElementById('dash-total-materi').innerText = totalMateriCount;
+            document.getElementById('dash-belum-paham').innerText = totalBelumPaham;
+            document.getElementById('dash-waktu-hari-ini').innerText = `${todayMinutes}m`;
+            document.getElementById('dash-menguasai').innerText = totalMenguasai;
+
+            // 3. Weekly Day Tracker (Senin - Minggu)
+            renderDashboardWeeklyTracker();
+
+            // 4. Recent Study Logs
+            renderDashboardRecentLogs();
+            renderDashboardPR();
+        }
+
+        function renderDashboardWeeklyTracker() {
+            const daysContainer = document.getElementById('dash-weekly-days');
+            daysContainer.innerHTML = '';
+
+            const dayNames = ['Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab', 'Ming'];
+            const curr = new Date();
+            const firstDayOfWeek = new Date(curr.setDate(curr.getDate() - curr.getDay() + (curr.getDay() === 0 ? -6 : 1)));
+
+            for (let i = 0; i < 7; i++) {
+                const dayDate = new Date(firstDayOfWeek);
+                dayDate.setDate(firstDayOfWeek.getDate() + i);
+                const dateStr = localDateStr(dayDate);
+
+                const dayLogs = state.logs.filter(l => l.date === dateStr);
+                const hasStudied = dayLogs.length > 0;
+                const isToday = dateStr === localDateStr();
+
+                const col = document.createElement('div');
+                col.className = 'flex flex-col items-center';
+                col.innerHTML = `
+                    <span class="text-[10px] text-slate-400 font-medium">${dayNames[i]}</span>
+                    <div class="w-8 h-8 rounded-lg mt-1 flex items-center justify-center text-xs font-bold ${
+                        hasStudied ? 'bg-blue-600 text-white shadow-sm' : 'bg-slate-100 text-slate-400'
+                    } ${isToday ? 'ring-2 ring-amber-400' : ''}">
+                        ${dayDate.getDate()}
+                    </div>
+                `;
+                daysContainer.appendChild(col);
+            }
+        }
+
+        function renderDashboardRecentLogs() {
+            const container = document.getElementById('dash-recent-logs');
+            container.innerHTML = '';
+
+            if (state.logs.length === 0) {
+                container.innerHTML = `<p class="text-xs text-slate-400 text-center py-2">Belum ada aktivitas belajar.</p>`;
+                return;
+            }
+
+            // Show latest 3 logs
+            const sorted = [...state.logs].reverse().slice(0, 3);
+            sorted.forEach(log => {
+                const el = document.createElement('div');
+                el.className = 'bg-slate-50 p-2.5 rounded-lg flex items-center justify-between border border-slate-100 text-xs';
+                el.innerHTML = `
+                    <div>
+                        <span class="font-bold text-slate-800">${escapeHtml(log.mapel)}</span>
+                        <p class="text-[11px] text-slate-500">${escapeHtml(log.materiTitle)}</p>
+                    </div>
+                    <div class="text-right">
+                        <span class="font-extrabold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-md border border-blue-100">+${log.durationMinutes} m</span>
+                        <p class="text-[10px] text-slate-400 mt-0.5">${log.date}</p>
+                    </div>
+                `;
+                container.appendChild(el);
+            });
+        }
+
+        /* ==========================================================================
+           TAB 2: MATERI & BAGIAN SULIT
+           ========================================================================== */
+
+        function renderMateriList() {
+            const container = document.getElementById('materi-list-container');
+            const searchKeyword = document.getElementById('materi-search').value.toLowerCase();
+            container.innerHTML = '';
+
+            // Filter Chips Setup
+            renderSubjectFilterChips();
+
+            let filtered = state.materi.filter(m => {
+                const matchSubject = state.selectedFilterSubject === 'ALL' || m.mapel === state.selectedFilterSubject;
+                const matchSearch = m.mapel.toLowerCase().includes(searchKeyword) || m.judul.toLowerCase().includes(searchKeyword);
+                return matchSubject && matchSearch;
+            });
+
+            if (filtered.length === 0) {
+                container.innerHTML = `
+                    <div class="text-center py-8 bg-white rounded-xl border border-dashed border-slate-200">
+                        <svg class="ic text-3xl text-slate-300 mb-2" viewBox="0 0 576 512" fill="currentColor" aria-hidden="true"><path d="M56 225.6L32.4 296.2 32.4 96c0-35.3 28.7-64 64-64l138.7 0c13.8 0 27.3 4.5 38.4 12.8l38.4 28.8c5.5 4.2 12.3 6.4 19.2 6.4l117.3 0c35.3 0 64 28.7 64 64l0 16-365.4 0c-41.3 0-78 26.4-91.1 65.6zM477.8 448L99 448c-32.8 0-55.9-32.1-45.5-63.2l48-144C108 221.2 126.4 208 147 208l378.8 0c32.8 0 55.9 32.1 45.5 63.2l-48 144c-6.5 19.6-24.9 32.8-45.5 32.8z"/></svg>
+                        <p class="text-xs text-slate-500">Tidak ada materi ditemukan.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            filtered.forEach(m => {
+                const overallStatus = calculateMateriOverallStatus(m);
+                const statusBadge = getStatusBadgeHTML(overallStatus);
+
+                const card = document.createElement('div');
+                card.className = 'bg-white p-4 rounded-xl border border-slate-100 shadow-sm space-y-3';
+                
+                // Difficulty Items List HTML
+                let diffsHTML = '';
+                if (!m.difficulties || m.difficulties.length === 0) {
+                    diffsHTML = `<p class="text-[11px] text-slate-400 italic">Belum ada catatan bagian belum dipahami.</p>`;
+                } else {
+                    diffsHTML = m.difficulties.map(d => `
+                        <div class="flex items-center justify-between py-1 border-b border-slate-50 text-xs">
+                            <span class="text-slate-700 flex-1 pr-2">• ${escapeHtml(d.text)}</span>
+                            ${getStatusBadgeHTML(d.status)}
+                        </div>
+                    `).join('');
+                }
+
+                card.innerHTML = `
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <span class="text-[10px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded uppercase tracking-wider">${escapeHtml(m.mapel)}</span>
+                            <h3 class="font-bold text-sm text-slate-800 mt-1">${escapeHtml(m.judul)}</h3>
+                            <p class="text-[11px] text-slate-400">Diberikan: ${m.tanggal} | Sumber: ${escapeHtml(m.sumber)}</p>
+                        </div>
+                        <div class="flex items-center space-x-1">
+                            <button onclick="openMateriModal('${m.id}')" class="p-1.5 text-slate-400 hover:text-blue-600 text-xs"><svg class="ic " viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M352.9 21.2L308 66.1 445.9 204 490.8 159.1C504.4 145.6 512 127.2 512 108s-7.6-37.6-21.2-51.1L455.1 21.2C441.6 7.6 423.2 0 404 0s-37.6 7.6-51.1 21.2zM274.1 100L58.9 315.1c-10.7 10.7-18.5 24.1-22.6 38.7L.9 481.6c-2.3 8.3 0 17.3 6.2 23.4s15.1 8.5 23.4 6.2l127.8-35.5c14.6-4.1 27.9-11.8 38.7-22.6L412 237.9 274.1 100z"/></svg></button>
+                            <button onclick="deleteMateri('${m.id}')" class="p-1.5 text-slate-400 hover:text-red-600 text-xs"><svg class="ic " viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M136.7 5.9L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-8.7-26.1C306.9-7.2 294.7-16 280.9-16L167.1-16c-13.8 0-26 8.8-30.4 21.9zM416 144L32 144 53.1 467.1C54.7 492.4 75.7 512 101 512L347 512c25.3 0 46.3-19.6 47.9-44.9L416 144z"/></svg></button>
+                        </div>
+                    </div>
+
+                    ${m.lampiran ? `
+                        <div class="text-[11px] bg-slate-50 p-2 rounded border border-slate-200 flex items-center space-x-2 text-slate-600">
+                            <svg class="ic text-blue-600" viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M224.6 12.8c56.2-56.2 147.4-56.2 203.6 0s56.2 147.4 0 203.6l-164 164c-34.4 34.4-90.1 34.4-124.5 0s-34.4-90.1 0-124.5L292.5 103.3c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L185 301.3c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l164-164c31.2-31.2 31.2-81.9 0-113.1s-81.9-31.2-113.1 0l-164 164c-53.1 53.1-53.1 139.2 0 192.3s139.2 53.1 192.3 0L428.3 284.3c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L343.4 459.6c-78.1 78.1-204.7 78.1-282.8 0s-78.1-204.7 0-282.8l164-164z"/></svg>
+                            <span class="truncate">${escapeHtml(m.lampiran)}</span>
+                        </div>
+                    ` : ''}
+
+                    <div class="bg-slate-50/70 p-3 rounded-lg border border-slate-100 space-y-1.5">
+                        <div class="flex justify-between items-center mb-1">
+                            <span class="text-[11px] font-bold text-slate-600">Bagian Belum Dipahami:</span>
+                            <button onclick="openDiffModal('${m.id}')" class="text-[11px] text-blue-600 font-bold hover:underline">+ Kelola</button>
+                        </div>
+                        ${diffsHTML}
+                    </div>
+
+                    <div class="flex justify-between items-center pt-1 border-t border-slate-100 text-xs">
+                        <span class="text-slate-500 text-[11px]">Status Umum:</span>
+                        ${statusBadge}
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        function renderSubjectFilterChips() {
+            const container = document.getElementById('materi-filter-chips');
+            container.innerHTML = '';
+
+            // Get unique subjects
+            const subjects = ['ALL', ...new Set(state.materi.map(m => m.mapel))];
+
+            subjects.forEach(subj => {
+                const active = state.selectedFilterSubject === subj;
+                const chip = document.createElement('button');
+                chip.onclick = () => {
+                    state.selectedFilterSubject = subj;
+                    renderMateriList();
+                };
+                chip.className = `px-3 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition ${
+                    active ? 'bg-blue-600 text-white shadow-sm' : 'bg-white text-slate-600 border border-slate-200 hover:bg-slate-50'
+                }`;
+                chip.innerText = subj === 'ALL' ? 'Semua Mapel' : subj;
+                container.appendChild(chip);
+            });
+        }
+
+        function calculateMateriOverallStatus(materi) {
+            if (!materi.difficulties || materi.difficulties.length === 0) return 3; // Default Paham
+            
+            // Average of statuses
+            const sum = materi.difficulties.reduce((acc, d) => acc + d.status, 0);
+            const avg = Math.round(sum / materi.difficulties.length);
+            return Math.max(1, Math.min(4, avg));
+        }
+
+        function getStatusBadgeHTML(statusLevel) {
+            const labels = {
+                1: { text: 'Belum Paham', bg: 'bg-red-50', textCol: 'text-red-600', border: 'border-red-200' },
+                2: { text: 'Mulai Memahami', bg: 'bg-amber-50', textCol: 'text-amber-600', border: 'border-amber-200' },
+                3: { text: 'Sudah Paham', bg: 'bg-blue-50', textCol: 'text-blue-600', border: 'border-blue-200' },
+                4: { text: 'Menguasai', bg: 'bg-emerald-50', textCol: 'text-emerald-600', border: 'border-emerald-200' }
+            };
+            const s = labels[statusLevel] || labels[1];
+            return `<span class="px-2 py-0.5 rounded text-[10px] font-bold border ${s.bg} ${s.textCol} ${s.border}">${s.text}</span>`;
+        }
+
+        /* --- Materi CRUD Modals --- */
+
+        function openMateriModal(materiId = null) {
+            const modal = document.getElementById('modal-materi');
+            const form = document.getElementById('form-materi');
+            form.reset();
+
+            if (materiId) {
+                const m = state.materi.find(item => item.id === materiId);
+                if (m) {
+                    document.getElementById('modal-materi-title').innerText = 'Edit Materi';
+                    document.getElementById('materi-id').value = m.id;
+                    document.getElementById('materi-mapel').value = m.mapel;
+                    document.getElementById('materi-judul').value = m.judul;
+                    document.getElementById('materi-tanggal').value = m.tanggal;
+                    document.getElementById('materi-sumber').value = m.sumber;
+                    document.getElementById('materi-lampiran').value = m.lampiran || '';
+                    document.getElementById('materi-catatan').value = m.catatan || '';
+                }
+            } else {
+                document.getElementById('modal-materi-title').innerText = 'Tambah Materi Baru';
+                document.getElementById('materi-id').value = '';
+                document.getElementById('materi-tanggal').value = localDateStr();
+            }
+
+            modal.classList.remove('hidden');
+        }
+
+        function closeMateriModal() {
+            document.getElementById('modal-materi').classList.add('hidden');
+        }
+
+        function saveMateri(event) {
+            event.preventDefault();
+            const id = document.getElementById('materi-id').value;
+            const mapel = document.getElementById('materi-mapel').value.trim();
+            const judul = document.getElementById('materi-judul').value.trim();
+            const tanggal = document.getElementById('materi-tanggal').value;
+            const sumber = document.getElementById('materi-sumber').value;
+            const lampiran = document.getElementById('materi-lampiran').value.trim();
+            const catatan = document.getElementById('materi-catatan').value.trim();
+
+            if (id) {
+                // Update existing
+                const index = state.materi.findIndex(m => m.id === id);
+                if (index !== -1) {
+                    state.materi[index] = {
+                        ...state.materi[index],
+                        mapel, judul, tanggal, sumber, lampiran, catatan
+                    };
+                }
+            } else {
+                // Add new
+                const newMateri = {
+                    id: 'm_' + Date.now(),
+                    mapel,
+                    judul,
+                    tanggal,
+                    sumber,
+                    lampiran,
+                    catatan,
+                    difficulties: []
+                };
+                state.materi.unshift(newMateri);
+            }
+
+            saveStateToStorage();
+            closeMateriModal();
+            renderMateriList();
+            renderDashboard();
+        }
+
+        function deleteMateri(id) {
+            if (confirm('Apakah Anda yakin ingin menghapus materi ini?')) {
+                state.materi = state.materi.filter(m => m.id !== id);
+                saveStateToStorage();
+                renderMateriList();
+                renderDashboard();
+            }
+        }
+
+        /* --- Difficulty Sub-items Modal --- */
+
+        function openDiffModal(materiId) {
+            activeDiffMateriId = materiId;
+            const m = state.materi.find(item => item.id === materiId);
+            if (!m) return;
+
+            document.getElementById('modal-diff-materi-title').innerText = `Kesulitan: ${m.mapel}`;
+            document.getElementById('modal-diff-materi-sub').innerText = `Judul: ${m.judul}`;
+            
+            renderDiffModalList(m);
+            document.getElementById('modal-diff').classList.remove('hidden');
+        }
+
+        function closeDiffModal() {
+            document.getElementById('modal-diff').classList.add('hidden');
+            activeDiffMateriId = null;
+            renderMateriList();
+            renderDashboard();
+        }
+
+        function renderDiffModalList(materi) {
+            const container = document.getElementById('modal-diff-list');
+            container.innerHTML = '';
+
+            if (!materi.difficulties || materi.difficulties.length === 0) {
+                container.innerHTML = `<p class="text-xs text-slate-400 text-center py-3">Belum ada catatan bagian belum dipahami.</p>`;
+                return;
+            }
+
+            materi.difficulties.forEach(d => {
+                const row = document.createElement('div');
+                row.className = 'bg-slate-50 p-2.5 rounded-lg border border-slate-200 flex items-center justify-between gap-2';
+                row.innerHTML = `
+                    <span class="text-xs text-slate-800 font-medium flex-1">${escapeHtml(d.text)}</span>
+                    <select onchange="updateDiffStatus('${d.id}', this.value)" class="text-xs bg-white border border-slate-300 rounded px-2 py-1 font-semibold focus:outline-none">
+                        <option value="1" ${d.status == 1 ? 'selected' : ''}>1. Belum Paham</option>
+                        <option value="2" ${d.status == 2 ? 'selected' : ''}>2. Mulai Memahami</option>
+                        <option value="3" ${d.status == 3 ? 'selected' : ''}>3. Sudah Paham</option>
+                        <option value="4" ${d.status == 4 ? 'selected' : ''}>4. Menguasai</option>
+                    </select>
+                    <button onclick="removeDiffItem('${d.id}')" class="text-slate-400 hover:text-red-500 text-xs px-1"><svg class="ic " viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M55.1 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L147.2 256 9.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192.5 301.3 329.9 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.8 256 375.1 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192.5 210.7 55.1 73.4z"/></svg></button>
+                `;
+                container.appendChild(row);
+            });
+        }
+
+        function addDifficultyItem() {
+            const textInput = document.getElementById('new-diff-text');
+            const text = textInput.value.trim();
+            if (!text || !activeDiffMateriId) return;
+
+            const m = state.materi.find(item => item.id === activeDiffMateriId);
+            if (m) {
+                if (!m.difficulties) m.difficulties = [];
+                m.difficulties.push({
+                    id: 'd_' + Date.now(),
+                    text: text,
+                    status: 1 // Belum Paham default
+                });
+                saveStateToStorage();
+                textInput.value = '';
+                renderDiffModalList(m);
+            }
+        }
+
+        function updateDiffStatus(diffId, newStatus) {
+            const m = state.materi.find(item => item.id === activeDiffMateriId);
+            if (m) {
+                const diff = m.difficulties.find(d => d.id === diffId);
+                if (diff) {
+                    diff.status = parseInt(newStatus);
+                    saveStateToStorage();
+                }
+            }
+        }
+
+        function removeDiffItem(diffId) {
+            const m = state.materi.find(item => item.id === activeDiffMateriId);
+            if (m) {
+                m.difficulties = m.difficulties.filter(d => d.id !== diffId);
+                saveStateToStorage();
+                renderDiffModalList(m);
+            }
+        }
+
+        /* ==========================================================================
+           TAB 3: STUDY TIMER & SISTEM BELAJAR SETELAH SEKOLAH
+           ========================================================================== */
+
+        function loadSession() {
+            try { session = JSON.parse(localStorage.getItem(SESSION_KEY)); } catch (e) { session = null; }
+        }
+        function persistSession() {
+            try {
+                if (session) localStorage.setItem(SESSION_KEY, JSON.stringify(session));
+                else localStorage.removeItem(SESSION_KEY);
+            } catch (e) {}
+        }
+        function sessionSeconds() {
+            if (!session) return 0;
+            return Math.floor((session.accMs + (session.startedAt ? Date.now() - session.startedAt : 0)) / 1000);
+        }
+        function sessionMateri() {
+            return session && session.mode === 'materi' ? state.materi.find(m => m.id === session.refId) : null;
+        }
+
+        function setStudyMode(mode) {
+            if (session) return;
+            studyMode = mode;
+            applySessionUI();
+        }
+
+        function setupTimerSelectors() {
+            const keepMapel = document.getElementById('timer-select-mapel').value;
+            const keepMateri = document.getElementById('timer-select-materi').value;
+            const keepPR = document.getElementById('timer-select-pr').value;
+
+            const mapelSelect = document.getElementById('timer-select-mapel');
+            mapelSelect.innerHTML = '<option value="">-- Pilih Mata Pelajaran --</option>';
+            [...new Set(state.materi.map(m => m.mapel))].forEach(mapel => {
+                const opt = document.createElement('option');
+                opt.value = mapel; opt.innerText = mapel;
+                mapelSelect.appendChild(opt);
+            });
+
+            const prSelect = document.getElementById('timer-select-pr');
+            prSelect.innerHTML = '<option value="">-- Pilih PR --</option>';
+            state.pr.filter(p => !p.done).forEach(p => {
+                const opt = document.createElement('option');
+                opt.value = p.id; opt.innerText = `${p.mapel} - ${p.judul}`;
+                prSelect.appendChild(opt);
+            });
+
+            if (session) {
+                if (session.mode === 'materi') {
+                    const m = sessionMateri();
+                    mapelSelect.value = session.mapel; onTimerMapelChange();
+                    if (m) { document.getElementById('timer-select-materi').value = m.id; onTimerMateriChange(); }
+                } else prSelect.value = session.refId;
+            } else {
+                if (state.pendingPR) { studyMode = 'pr'; prSelect.value = state.pendingPR; state.pendingPR = null; }
+                else prSelect.value = keepPR;
+                if (keepMapel) { mapelSelect.value = keepMapel; onTimerMapelChange(); document.getElementById('timer-select-materi').value = keepMateri; onTimerMateriChange(); }
+                else onTimerMapelChange();
+            }
+            renderPRTimerInfo();
+            applySessionUI();
+        }
+
+        function onTimerMapelChange() {
+            const mapel = document.getElementById('timer-select-mapel').value;
+            const materiSelect = document.getElementById('timer-select-materi');
+            materiSelect.innerHTML = '<option value="">-- Pilih Materi Target --</option>';
+            document.getElementById('timer-diff-preview').classList.add('hidden');
+            if (!mapel) { materiSelect.disabled = true; return; }
+            const list = state.materi.filter(m => m.mapel === mapel);
+            if (list.length === 0) { materiSelect.disabled = true; return; }
+            list.forEach(m => {
+                const opt = document.createElement('option');
+                opt.value = m.id; opt.innerText = m.judul;
+                materiSelect.appendChild(opt);
+            });
+            materiSelect.disabled = !!session;
+        }
+
+        function onTimerMateriChange() {
+            const m = state.materi.find(x => x.id === document.getElementById('timer-select-materi').value);
+            const diffList = document.getElementById('timer-diff-list');
+            diffList.innerHTML = '';
+            if (m && m.difficulties && m.difficulties.length) {
+                m.difficulties.forEach(d => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `${escapeHtml(d.text)} - ${getStatusBadgeHTML(d.status)}`;
+                    diffList.appendChild(li);
+                });
+                document.getElementById('timer-diff-preview').classList.remove('hidden');
+            } else document.getElementById('timer-diff-preview').classList.add('hidden');
+        }
+
+        function renderPRTimerInfo() {
+            const p = state.pr.find(x => x.id === document.getElementById('timer-select-pr').value);
+            const el = document.getElementById('pr-timer-info');
+            if (!p) { el.innerText = state.pr.some(x => !x.done) ? '' : 'Belum ada PR aktif. Tambahkan dulu di tab PR.'; return; }
+            const sp = prSpent(p.id);
+            el.innerText = `${deadlineInfo(p.deadline).text} | Sudah dikerjakan ${fmtMinutes(sp.minutes)} (${sp.sessions} sesi)`;
+        }
+
+        /* --- Timer Controls --- */
+
+        function startTimer() {
+            if (!session) {
+                if (studyMode === 'materi') {
+                    const m = state.materi.find(x => x.id === document.getElementById('timer-select-materi').value);
+                    if (!m) { alert('Silakan pilih Mata Pelajaran dan Materi terlebih dahulu sebelum memulai timer!'); return; }
+                    session = { mode: 'materi', refId: m.id, mapel: m.mapel, title: m.judul, accMs: 0, startedAt: Date.now(), finishing: false };
+                } else {
+                    const p = state.pr.find(x => x.id === document.getElementById('timer-select-pr').value);
+                    if (!p) { alert('Silakan pilih PR yang akan dikerjakan terlebih dahulu!'); return; }
+                    session = { mode: 'pr', refId: p.id, mapel: p.mapel, title: p.judul, accMs: 0, startedAt: Date.now(), finishing: false };
+                }
+            } else if (!session.startedAt) {
+                session.startedAt = Date.now();
+            }
+            persistSession();
+            applySessionUI();
+        }
+
+        function pauseTimer() {
+            if (session && session.startedAt) {
+                session.accMs += Date.now() - session.startedAt;
+                session.startedAt = null;
+                persistSession();
+                applySessionUI();
+            }
+        }
+
+        function stopTimer() {
+            if (!session) return;
+            if (sessionSeconds() < 5) {
+                if (!confirm('Durasi belajar kurang dari 5 detik. Batalkan sesi belajar ini?')) return;
+                resetTimerUI();
+                return;
+            }
+            pauseTimer();
+            session.finishing = true;
+            persistSession();
+            showPostStudyForm();
+        }
+
+        function resetTimerUI() {
+            session = null;
+            persistSession();
+            document.getElementById('post-study-modal').classList.add('hidden');
+            applySessionUI();
+        }
+
+        // Sinkronkan seluruh tampilan timer dengan data sesi
+        function applySessionUI() {
+            clearInterval(timerInterval); timerInterval = null;
+            const running = !!(session && session.startedAt);
+            const mode = session ? session.mode : studyMode;
+            studyMode = mode;
+
+            segStyle(document.getElementById('mode-materi'), mode === 'materi');
+            segStyle(document.getElementById('mode-pr'), mode === 'pr');
+            document.getElementById('mode-materi').disabled = document.getElementById('mode-pr').disabled = !!session;
+            document.getElementById('setup-materi').classList.toggle('hidden', mode !== 'materi');
+            document.getElementById('setup-pr').classList.toggle('hidden', mode !== 'pr');
+
+            const locked = !!session;
+            document.getElementById('timer-select-mapel').disabled = locked;
+            document.getElementById('timer-select-pr').disabled = locked;
+            const ms = document.getElementById('timer-select-materi');
+            ms.disabled = locked || !document.getElementById('timer-select-mapel').value;
+
+            document.getElementById('btn-timer-start').classList.toggle('hidden', running);
+            document.getElementById('btn-timer-pause').classList.toggle('hidden', !running);
+            document.querySelector('#btn-timer-start span').innerText =
+                session ? 'Lanjutkan' : (mode === 'pr' ? 'Mulai Kerjakan PR' : 'Mulai Belajar');
+
+            renderTimer();
+            if (running) timerInterval = setInterval(renderTimer, 1000);
+        }
+
+        function renderTimer() {
+            const sec = sessionSeconds();
+            const clock = fmtClock(sec);
+            const running = !!(session && session.startedAt);
+            document.getElementById('timer-display').innerText = clock;
+
+            const status = document.getElementById('timer-target-status');
+            if (!session) status.innerText = studyMode === 'pr' ? 'Catat waktu pengerjaan PR-mu' : 'Target min 15:00 menit';
+            else if (session.mode === 'pr') status.innerText = `PR: ${session.title}${running ? '' : ' (dijeda)'}`;
+            else status.innerText = `${session.mapel}: ${session.title}${running ? '' : ' (dijeda)'}`;
+
+            document.getElementById('timer-alert-15min').classList.toggle('hidden', !(session && session.mode === 'materi' && sec >= 900));
+
+            const bar = document.getElementById('session-bar');
+            bar.classList.toggle('hidden', !session || state.activeTab === 'belajar');
+            if (session) {
+                document.getElementById('session-bar-text').innerText = (running ? 'Sedang ' : 'Dijeda: ') + (session.mode === 'pr' ? 'mengerjakan PR ' : 'belajar ') + session.mapel;
+                document.getElementById('session-bar-time').innerText = clock;
+            }
+            document.title = running ? `${clock} - StudyTrack` : 'StudyTrack - Personal Study Tracker SMK';
+        }
+
+        // Saat aplikasi dibuka kembali / kembali ke layar, hitung ulang dari timestamp
+        ['visibilitychange', 'focus', 'pageshow'].forEach(ev =>
+            window.addEventListener(ev, () => { if (!document.hidden && session) renderTimer(); }));
+        window.addEventListener('storage', e => {
+            if (e.key === SESSION_KEY) { loadSession(); applySessionUI(); }
+        });
+
+        /* --- Post-Study Recording --- */
+
+        function showPostStudyForm() {
+            const diffContainer = document.getElementById('post-study-diff-indicators');
+            diffContainer.innerHTML = '';
+            const isPR = session && session.mode === 'pr';
+            document.getElementById('post-study-pr-done-wrap').classList.toggle('hidden', !isPR);
+            document.getElementById('post-study-diff-label').classList.toggle('hidden', isPR);
+            diffContainer.classList.toggle('hidden', isPR);
+
+            const m = sessionMateri();
+            if (m && m.difficulties && m.difficulties.length) {
+                m.difficulties.forEach(d => {
+                    const row = document.createElement('div');
+                    row.className = 'bg-slate-50 p-2 rounded-lg border border-slate-200 flex justify-between items-center text-xs';
+                    row.innerHTML = `
+                        <span class="text-slate-700 font-medium">${escapeHtml(d.text)}</span>
+                        <select data-diff-id="${d.id}" class="post-diff-select bg-white border border-slate-300 rounded px-2 py-1 font-semibold">
+                            <option value="1" ${d.status == 1 ? 'selected' : ''}>1. Belum Paham</option>
+                            <option value="2" ${d.status == 2 ? 'selected' : ''}>2. Mulai Memahami</option>
+                            <option value="3" ${d.status == 3 ? 'selected' : ''}>3. Sudah Paham</option>
+                            <option value="4" ${d.status == 4 ? 'selected' : ''}>4. Menguasai</option>
+                        </select>`;
+                    diffContainer.appendChild(row);
+                });
+            } else if (!isPR) {
+                diffContainer.innerHTML = `<p class="text-xs text-slate-400">Tidak ada bagian indikator spesifik.</p>`;
+            }
+            document.getElementById('post-study-modal').classList.remove('hidden');
+        }
+
+        function cancelPostStudy() {
+            // Batal = lanjutkan sesi lagi (waktu tidak hilang)
+            document.getElementById('post-study-modal').classList.add('hidden');
+            if (session) { session.finishing = false; persistSession(); applySessionUI(); }
+        }
+
+        function savePostStudyLog() {
+            if (!session) return;
+            const minutes = Math.max(1, Math.ceil(sessionSeconds() / 60));
+            const notes = document.getElementById('post-study-notes').value.trim();
+            const isPR = session.mode === 'pr';
+
+            const log = {
+                id: 'l_' + Date.now(), date: localDateStr(), mapel: session.mapel,
+                materiTitle: isPR ? 'PR: ' + session.title : session.title,
+                durationMinutes: minutes, notes: notes || (isPR ? 'Mengerjakan PR.' : 'Sesi belajar mandiri.'),
+                type: session.mode
+            };
+            if (isPR) {
+                log.prId = session.refId;
+                if (document.getElementById('post-study-pr-done').checked) {
+                    const p = state.pr.find(x => x.id === session.refId);
+                    if (p) { p.done = true; p.doneAt = localDateStr(); }
+                }
+            } else {
+                const m = sessionMateri();
+                document.querySelectorAll('.post-diff-select').forEach(select => {
+                    const diff = m && m.difficulties.find(d => d.id === select.getAttribute('data-diff-id'));
+                    if (diff) diff.status = parseInt(select.value);
+                });
+            }
+            state.logs.push(log);
+            saveStateToStorage();
+
+            document.getElementById('post-study-notes').value = '';
+            document.getElementById('post-study-pr-done').checked = false;
+            resetTimerUI();
+            setupTimerSelectors();
+            alert(`Sesi ${minutes} menit berhasil dicatat!`);
+            renderDashboard();
+        }
+
+        /* ==========================================================================
+           TAB PR: CATATAN PEKERJAAN RUMAH & WAKTU PENGERJAAN
+           ========================================================================== */
+
+        function prSpent(prId) {
+            const l = state.logs.filter(x => x.prId === prId);
+            return { minutes: l.reduce((a, c) => a + c.durationMinutes, 0), sessions: l.length };
+        }
+
+        function deadlineInfo(ds) {
+            if (!ds) return { text: 'Tanpa deadline', cls: 'bg-slate-100 text-slate-500', urgent: false };
+            const diff = Math.round((parseLocalDate(ds) - parseLocalDate(localDateStr())) / 86400000);
+            if (diff < 0) return { text: `Terlambat ${-diff} hari`, cls: 'bg-red-50 text-red-600', urgent: true };
+            if (diff === 0) return { text: 'Dikumpulkan hari ini', cls: 'bg-amber-50 text-amber-600', urgent: true };
+            if (diff === 1) return { text: 'Dikumpulkan besok', cls: 'bg-amber-50 text-amber-600', urgent: true };
+            if (diff <= 3) return { text: `${diff} hari lagi`, cls: 'bg-amber-50 text-amber-600', urgent: false };
+            return { text: parseLocalDate(ds).toLocaleDateString('id-ID', { day: 'numeric', month: 'short' }), cls: 'bg-blue-50 text-blue-600', urgent: false };
+        }
+
+        function setPRFilter(f) { state.prFilter = f; renderPR(); }
+
+        function renderPR() {
+            const f = state.prFilter || 'active';
+            segStyle(document.getElementById('pr-f-active'), f === 'active');
+            segStyle(document.getElementById('pr-f-done'), f === 'done');
+
+            const active = state.pr.filter(p => !p.done);
+            const totalMin = state.pr.reduce((a, p) => a + prSpent(p.id).minutes, 0);
+            document.getElementById('pr-summary').innerText =
+                `${active.length} PR aktif | ${state.pr.length - active.length} selesai | Total waktu mengerjakan PR: ${fmtMinutes(totalMin)}`;
+
+            const items = state.pr.filter(p => f === 'active' ? !p.done : p.done).sort((a, b) =>
+                f === 'active' ? (a.deadline || '9999').localeCompare(b.deadline || '9999') : (b.doneAt || '').localeCompare(a.doneAt || ''));
+
+            const box = document.getElementById('pr-list');
+            if (!items.length) {
+                box.innerHTML = `<div class="text-center py-8 bg-white rounded-xl border border-dashed border-slate-200">
+                    <svg class="ic text-3xl text-slate-300 mb-2" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M311.4 32l8.6 0c35.3 0 64 28.7 64 64l0 352c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l8.6 0C83.6 12.9 104.3 0 128 0L256 0c23.7 0 44.4 12.9 55.4 32zM248 112c13.3 0 24-10.7 24-24s-10.7-24-24-24L136 64c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0zM128 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm32 0c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0c-13.3 0-24 10.7-24 24zm0 128c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0c-13.3 0-24 10.7-24 24zM96 416a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
+                    <p class="text-xs text-slate-500">${f === 'active' ? 'Tidak ada PR aktif. Hore!' : 'Belum ada PR yang selesai.'}</p></div>`;
+                return;
+            }
+            box.innerHTML = items.map(p => {
+                const dl = deadlineInfo(p.deadline), sp = prSpent(p.id);
+                return `<div class="bg-white p-4 rounded-xl border ${!p.done && dl.urgent ? 'border-amber-300' : 'border-slate-100'} shadow-sm space-y-2.5">
+                    <div class="flex justify-between items-start">
+                        <div class="pr-2">
+                            <span class="text-[10px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded uppercase tracking-wider">${escapeHtml(p.mapel)}</span>
+                            <h3 class="font-bold text-sm text-slate-800 mt-1 ${p.done ? 'line-through opacity-60' : ''}">${escapeHtml(p.judul)}</h3>
+                            ${p.catatan ? `<p class="text-[11px] text-slate-500 mt-0.5">${escapeHtml(p.catatan)}</p>` : ''}
+                        </div>
+                        <div class="flex items-center space-x-1 shrink-0">
+                            <button onclick="openPRModal('${p.id}')" class="p-1.5 text-slate-400 hover:text-blue-600 text-xs"><svg class="ic " viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M352.9 21.2L308 66.1 445.9 204 490.8 159.1C504.4 145.6 512 127.2 512 108s-7.6-37.6-21.2-51.1L455.1 21.2C441.6 7.6 423.2 0 404 0s-37.6 7.6-51.1 21.2zM274.1 100L58.9 315.1c-10.7 10.7-18.5 24.1-22.6 38.7L.9 481.6c-2.3 8.3 0 17.3 6.2 23.4s15.1 8.5 23.4 6.2l127.8-35.5c14.6-4.1 27.9-11.8 38.7-22.6L412 237.9 274.1 100z"/></svg></button>
+                            <button onclick="deletePR('${p.id}')" class="p-1.5 text-slate-400 hover:text-red-600 text-xs"><svg class="ic " viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M136.7 5.9L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-8.7-26.1C306.9-7.2 294.7-16 280.9-16L167.1-16c-13.8 0-26 8.8-30.4 21.9zM416 144L32 144 53.1 467.1C54.7 492.4 75.7 512 101 512L347 512c25.3 0 46.3-19.6 47.9-44.9L416 144z"/></svg></button>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between text-[11px]">
+                        <span class="px-2 py-0.5 rounded font-bold ${p.done ? 'bg-emerald-50 text-emerald-600' : dl.cls}">${p.done ? 'Selesai ' + (p.doneAt || '') : dl.text}</span>
+                        <span class="text-slate-500 flex items-center space-x-1"><svg class="ic " viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg><span>${fmtMinutes(sp.minutes)} (${sp.sessions} sesi)</span></span>
+                    </div>
+                    <div class="flex space-x-2 pt-1">
+                        ${p.done ? '' : `<button onclick="startPR('${p.id}')" class="btn-act flex-1 bg-blue-600 text-white text-xs py-2 rounded-lg font-bold flex items-center justify-center space-x-1.5"><svg class="ic " viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M91.2 36.9c-12.4-6.8-27.4-6.5-39.6 .7S32 57.9 32 72l0 368c0 14.1 7.5 27.2 19.6 34.4s27.2 7.5 39.6 .7l336-184c12.8-7 20.8-20.5 20.8-35.1s-8-28.1-20.8-35.1l-336-184z"/></svg><span>Kerjakan</span></button>
+                        <button onclick="addPRTimeManual('${p.id}')" class="btn-act bg-slate-100 text-slate-700 text-xs px-3 py-2 rounded-lg font-bold">+ Waktu</button>`}
+                        <button onclick="togglePRDone('${p.id}')" class="btn-act ${p.done ? 'flex-1 bg-slate-100 text-slate-700' : 'bg-emerald-50 text-emerald-600 border border-emerald-200'} text-xs px-3 py-2 rounded-lg font-bold flex items-center justify-center space-x-1.5">
+                            ${p.done ? '<svg class="ic " viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M24 192l144 0c9.7 0 18.5-5.8 22.2-14.8s1.7-19.3-5.2-26.2l-46.7-46.7c75.3-58.6 184.3-53.3 253.5 15.9 75 75 75 196.5 0 271.5s-196.5 75-271.5 0c-10.2-10.2-19-21.3-26.4-33-9.5-14.9-29.3-19.3-44.2-9.8s-19.3 29.3-9.8 44.2C49.7 408.7 61.4 423.5 75 437 175 537 337 537 437 437S537 175 437 75C342.8-19.3 193.3-24.7 92.7 58.8L41 7C34.1 .2 23.8-1.9 14.8 1.8S0 14.3 0 24L0 168c0 13.3 10.7 24 24 24z"/></svg>' : '<svg class="ic " viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M434.8 70.1c14.3 10.4 17.5 30.4 7.1 44.7l-256 352c-5.5 7.6-14 12.3-23.4 13.1s-18.5-2.7-25.1-9.3l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l101.5 101.5 234-321.7c10.4-14.3 30.4-17.5 44.7-7.1z"/></svg>'}<span>${p.done ? 'Buka Lagi' : 'Selesai'}</span></button>
+                    </div></div>`;
+            }).join('');
+        }
+
+        function openPRModal(id) {
+            const mapels = new Set([...state.materi.map(m => m.mapel), ...state.pr.map(p => p.mapel),
+                ...Object.values(state.schedule).flat().map(s => s.mapel)]);
+            document.getElementById('pr-mapel-list').innerHTML = [...mapels].map(m => `<option value="${escapeHtml(m)}">`).join('');
+            const p = id ? state.pr.find(x => x.id === id) : null;
+            document.getElementById('modal-pr-title').innerText = p ? 'Edit PR' : 'Tambah PR';
+            document.getElementById('pr-id').value = p ? p.id : '';
+            document.getElementById('pr-mapel').value = p ? p.mapel : '';
+            document.getElementById('pr-judul').value = p ? p.judul : '';
+            document.getElementById('pr-deadline').value = p ? (p.deadline || '') : '';
+            document.getElementById('pr-catatan').value = p ? (p.catatan || '') : '';
+            document.getElementById('modal-pr').classList.remove('hidden');
+        }
+        function closePRModal() { document.getElementById('modal-pr').classList.add('hidden'); }
+
+        function savePR(e) {
+            e.preventDefault();
+            const id = document.getElementById('pr-id').value;
+            const data = {
+                mapel: document.getElementById('pr-mapel').value.trim(),
+                judul: document.getElementById('pr-judul').value.trim(),
+                deadline: document.getElementById('pr-deadline').value,
+                catatan: document.getElementById('pr-catatan').value.trim()
+            };
+            if (id) Object.assign(state.pr.find(x => x.id === id), data);
+            else state.pr.unshift({ id: 'pr_' + Date.now(), done: false, ...data });
+            saveStateToStorage(); closePRModal(); renderPR(); renderDashboard();
+        }
+
+        function deletePR(id) {
+            if (!confirm('Hapus PR ini? Riwayat waktu belajarnya tetap tersimpan di statistik.')) return;
+            if (session && session.mode === 'pr' && session.refId === id) { alert('PR ini sedang dikerjakan. Selesaikan sesinya dulu.'); return; }
+            state.pr = state.pr.filter(p => p.id !== id);
+            saveStateToStorage(); renderPR(); renderDashboard();
+        }
+
+        function togglePRDone(id) {
+            const p = state.pr.find(x => x.id === id);
+            p.done = !p.done; p.doneAt = p.done ? localDateStr() : null;
+            saveStateToStorage(); renderPR(); renderDashboard();
+        }
+
+        function addPRTimeManual(id) {
+            const p = state.pr.find(x => x.id === id);
+            const v = parseInt(prompt(`Berapa menit kamu mengerjakan "${p.judul}"?`, '30'));
+            if (!v || v < 1 || v > 720) return;
+            state.logs.push({ id: 'l_' + Date.now(), date: localDateStr(), mapel: p.mapel, materiTitle: 'PR: ' + p.judul,
+                durationMinutes: v, notes: 'Waktu dicatat manual.', type: 'pr', prId: id });
+            saveStateToStorage(); renderPR(); renderDashboard();
+        }
+
+        function startPR(id) {
+            state.pendingPR = id;
+            switchTab('belajar');
+        }
+
+        function renderDashboardPR() {
+            const active = state.pr.filter(p => !p.done).sort((a, b) => (a.deadline || '9999').localeCompare(b.deadline || '9999'));
+            document.getElementById('dash-pr-title').innerText = `${active.length} PR belum selesai`;
+            const n = active[0];
+            document.getElementById('dash-pr-sub').innerText = n ? `Terdekat: ${n.mapel} - ${deadlineInfo(n.deadline).text}` : 'Belum ada PR dicatat';
+        }
+
+/* ==========================================================================
+           TAB 4: STATISTIK & KALENDER INTERAKTIF
+           ========================================================================== */
+
+        function renderCharts() {
+            const periodDays = parseInt(document.getElementById('chart-period-filter').value || '7');
+            const labels = [], dataMinutes = [];
+            for (let i = periodDays - 1; i >= 0; i--) {
+                const d = new Date();
+                d.setDate(d.getDate() - i);
+                const ds = localDateStr(d);
+                labels.push(d.toLocaleDateString('id-ID', { day: 'numeric', month: 'short' }));
+                dataMinutes.push(state.logs.filter(l => l.date === ds).reduce((a, c) => a + c.durationMinutes, 0));
+            }
+            drawBarChart(document.getElementById('chartWaktuBelajar'), labels, dataMinutes);
+
+            const counts = [0, 0, 0, 0];
+            state.materi.forEach(m => counts[calculateMateriOverallStatus(m) - 1]++);
+            drawDonut(document.getElementById('chartStatusPemahaman'), counts);
+            renderDifficultSubjectsRank();
+        }
+
+        // Grafik digambar sendiri dengan canvas (tanpa Chart.js) agar bisa offline
+        function prepCanvas(cv) {
+            const box = cv.parentElement, w = box.clientWidth, h = box.clientHeight;
+            if (!w || !h) return null;
+            const dpr = window.devicePixelRatio || 1;
+            cv.width = w * dpr; cv.height = h * dpr; cv.style.width = w + 'px'; cv.style.height = h + 'px';
+            const c = cv.getContext('2d');
+            c.setTransform(dpr, 0, 0, dpr, 0, 0);
+            c.clearRect(0, 0, w, h);
+            return { c, w, h };
+        }
+
+        function drawBarChart(cv, labels, data) {
+            const p = prepCanvas(cv); if (!p) return;
+            const { c, w, h } = p, L = 30, B = 22, T = 8, R = 4;
+            const rawMax = Math.max(10, ...data), step = Math.ceil(rawMax / 4 / 5) * 5, max = step * 4;
+            c.font = '10px system-ui, sans-serif'; c.textBaseline = 'middle';
+            for (let i = 0; i <= 4; i++) {
+                const y = T + (h - T - B) * (1 - i / 4);
+                c.strokeStyle = '#f1f5f9'; c.beginPath(); c.moveTo(L, y); c.lineTo(w - R, y); c.stroke();
+                c.fillStyle = '#94a3b8'; c.textAlign = 'right'; c.fillText(i * step, L - 5, y);
+            }
+            const slot = (w - L - R) / data.length, bw = Math.max(2, slot * 0.6);
+            const every = Math.ceil(data.length / 7);
+            data.forEach((v, i) => {
+                const x = L + slot * i + (slot - bw) / 2, bh = (h - T - B) * (v / max), y = h - B - bh;
+                c.fillStyle = '#3b82f6';
+                c.beginPath(); c.roundRect ? c.roundRect(x, y, bw, bh, 4) : c.rect(x, y, bw, bh); c.fill();
+                if (i % every === 0 || i === data.length - 1) {
+                    c.fillStyle = '#94a3b8'; c.textAlign = 'center'; c.fillText(labels[i], x + bw / 2, h - B / 2 + 2);
+                }
+            });
+        }
+
+        function drawDonut(cv, counts) {
+            const p = prepCanvas(cv); if (!p) return;
+            const { c, w, h } = p, names = ['Belum Paham', 'Mulai Memahami', 'Sudah Paham', 'Menguasai'];
+            const cols = ['#ef4444', '#f59e0b', '#3b82f6', '#10b981'], total = counts.reduce((a, b) => a + b, 0);
+            const r = Math.min(h / 2 - 4, w / 4), cx = w * 0.28, cy = h / 2;
+            c.lineWidth = r * 0.45;
+            let a0 = -Math.PI / 2;
+            if (!total) { c.strokeStyle = '#e2e8f0'; c.beginPath(); c.arc(cx, cy, r * 0.78, 0, Math.PI * 2); c.stroke(); }
+            counts.forEach((n, i) => {
+                if (!n) return;
+                const a1 = a0 + Math.PI * 2 * n / total;
+                c.strokeStyle = cols[i]; c.beginPath(); c.arc(cx, cy, r * 0.78, a0, a1); c.stroke(); a0 = a1;
+            });
+            c.font = '11px system-ui, sans-serif'; c.textBaseline = 'middle'; c.textAlign = 'left';
+            names.forEach((nm, i) => {
+                const y = cy - 30 + i * 20, x = w * 0.55;
+                c.fillStyle = cols[i]; c.fillRect(x, y - 5, 10, 10);
+                c.fillStyle = '#475569'; c.fillText(`${nm} (${counts[i]})`, x + 16, y);
+            });
+        }
+        window.addEventListener('resize', () => { if (state.activeTab === 'statistik') renderCharts(); });
+
+        function renderDifficultSubjectsRank() {
+            const container = document.getElementById('stat-difficult-list');
+            container.innerHTML = '';
+
+            const subjectDifficultyMap = {};
+
+            state.materi.forEach(m => {
+                if (!subjectDifficultyMap[m.mapel]) subjectDifficultyMap[m.mapel] = { total: 0, count: 0 };
+                const status = calculateMateriOverallStatus(m);
+                // Lower status = more difficult
+                subjectDifficultyMap[m.mapel].total += (5 - status); 
+                subjectDifficultyMap[m.mapel].count += 1;
+            });
+
+            const sortedSubjects = Object.keys(subjectDifficultyMap).sort((a, b) => {
+                const avgA = subjectDifficultyMap[a].total / subjectDifficultyMap[a].count;
+                const avgB = subjectDifficultyMap[b].total / subjectDifficultyMap[b].count;
+                return avgB - avgA; // Highest difficulty score first
+            });
+
+            if (sortedSubjects.length === 0) {
+                container.innerHTML = `<p class="text-xs text-slate-400">Belum ada data materi.</p>`;
+                return;
+            }
+
+            sortedSubjects.slice(0, 4).forEach((subj, idx) => {
+                const el = document.createElement('div');
+                el.className = 'flex items-center justify-between p-2 bg-slate-50 rounded-lg border border-slate-100';
+                el.innerHTML = `
+                    <div class="flex items-center space-x-2">
+                        <span class="w-5 h-5 rounded-full bg-slate-200 text-slate-700 font-bold flex items-center justify-center text-[10px]">${idx + 1}</span>
+                        <span class="font-bold text-slate-700">${escapeHtml(subj)}</span>
+                    </div>
+                    <span class="text-[10px] bg-red-50 text-red-600 px-2 py-0.5 rounded font-semibold">Perlu Perhatian</span>
+                `;
+                container.appendChild(el);
+            });
+        }
+
+        /* --- Calendar Interaktive Logic --- */
+
+        function changeCalMonth(delta) {
+            calCurrentDate.setMonth(calCurrentDate.getMonth() + delta);
+            renderCalendar();
+        }
+
+        function renderCalendar() {
+            const year = calCurrentDate.getFullYear();
+            const month = calCurrentDate.getMonth();
+
+            const monthNames = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+            document.getElementById('cal-month-title').innerText = `${monthNames[month]} ${year}`;
+
+            const grid = document.getElementById('cal-days-grid');
+            grid.innerHTML = '';
+
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+            // Blank padding for month start
+            for (let i = 0; i < firstDay; i++) {
+                const blank = document.createElement('div');
+                grid.appendChild(blank);
+            }
+
+            // Days of the month
+            for (let day = 1; day <= daysInMonth; day++) {
+                const padDay = day.toString().padStart(2, '0');
+                const padMonth = (month + 1).toString().padStart(2, '0');
+                const dateStr = `${year}-${padMonth}-${padDay}`;
+
+                const dayLogs = state.logs.filter(l => l.date === dateStr);
+                const hasStudied = dayLogs.length > 0;
+
+                const dayBtn = document.createElement('button');
+                dayBtn.onclick = () => selectCalendarDate(dateStr, dayLogs);
+                dayBtn.className = `h-9 rounded-lg flex flex-col items-center justify-center relative font-semibold transition ${
+                    hasStudied ? 'bg-blue-600 text-white font-bold shadow-xs' : 'bg-slate-50 text-slate-700 hover:bg-slate-100'
+                }`;
+                dayBtn.innerText = day;
+
+                if (hasStudied) {
+                    const dot = document.createElement('span');
+                    dot.className = 'w-1.5 h-1.5 bg-amber-400 rounded-full absolute bottom-1';
+                    dayBtn.appendChild(dot);
+                }
+
+                grid.appendChild(dayBtn);
+            }
+        }
+
+        function selectCalendarDate(dateStr, logs) {
+            const card = document.getElementById('cal-detail-card');
+            const list = document.getElementById('cal-detail-list');
+            list.innerHTML = '';
+
+            document.getElementById('cal-detail-date').innerText = `Riwayat: ${dateStr}`;
+
+            if (!logs || logs.length === 0) {
+                document.getElementById('cal-detail-total').innerText = '0m';
+                list.innerHTML = `<p class="text-xs text-slate-500 py-1">Tidak ada aktivitas belajar pada tanggal ini.</p>`;
+            } else {
+                const totalMins = logs.reduce((acc, c) => acc + c.durationMinutes, 0);
+                document.getElementById('cal-detail-total').innerText = `${totalMins} Menit`;
+
+                logs.forEach(l => {
+                    const item = document.createElement('div');
+                    item.className = 'bg-white p-2.5 rounded-lg border border-blue-100 space-y-1';
+                    item.innerHTML = `
+                        <div class="flex justify-between font-bold text-slate-800">
+                            <span>${escapeHtml(l.mapel)}</span>
+                            <span class="text-blue-600">${l.durationMinutes} Menit</span>
+                        </div>
+                        <p class="text-slate-600">${escapeHtml(l.materiTitle)}</p>
+                        ${l.notes ? `<p class="text-[11px] text-slate-400 italic font-normal">"${escapeHtml(l.notes)}"</p>` : ''}
+                    `;
+                    list.appendChild(item);
+                });
+            }
+
+            card.classList.remove('hidden');
+        }
+
+        /* ==========================================================================
+           TAB 5: JADWAL PELAJARAN & PENGATURAN
+           ========================================================================== */
+
+        function selectScheduleDay(dayName) {
+            state.selectedScheduleDay = dayName;
+            
+            // Highlight tab
+            document.querySelectorAll('.sched-tab').forEach(btn => {
+                btn.classList.remove('bg-white', 'text-blue-600', 'shadow-xs');
+                btn.classList.add('text-slate-600');
+            });
+
+            const activeBtn = Array.from(document.querySelectorAll('.sched-tab')).find(b => b.innerText.includes(dayName.slice(0, 3)));
+            if (activeBtn) {
+                activeBtn.classList.remove('text-slate-600');
+                activeBtn.classList.add('bg-white', 'text-blue-600', 'shadow-xs');
+            }
+
+            renderScheduleView();
+        }
+
+        function renderScheduleView() {
+            const container = document.getElementById('schedule-day-content');
+            container.innerHTML = '';
+
+            const dayList = state.schedule[state.selectedScheduleDay] || [];
+
+            if (dayList.length === 0) {
+                container.innerHTML = `<p class="text-xs text-slate-400 py-2 text-center">Belum ada mata pelajaran di hari ${state.selectedScheduleDay}.</p>`;
+                return;
+            }
+
+            dayList.forEach((item, index) => {
+                const card = document.createElement('div');
+                card.className = 'bg-slate-50 p-2.5 rounded-lg border border-slate-200 flex items-center justify-between text-xs';
+                card.innerHTML = `
+                    <div class="flex items-center space-x-3">
+                        <span class="w-6 h-6 rounded-full bg-blue-100 text-blue-700 font-bold flex items-center justify-center text-[10px]">${index + 1}</span>
+                        <div>
+                            <span class="font-bold text-slate-800 block">${escapeHtml(item.mapel)}</span>
+                            <span class="text-[10px] text-slate-400">${escapeHtml(item.room || 'Kelas SMK')}</span>
+                        </div>
+                    </div>
+                    <button onclick="removeSubjectFromSchedule('${item.id}')" class="text-slate-400 hover:text-red-500 text-xs px-2"><svg class="ic " viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M136.7 5.9L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-8.7-26.1C306.9-7.2 294.7-16 280.9-16L167.1-16c-13.8 0-26 8.8-30.4 21.9zM416 144L32 144 53.1 467.1C54.7 492.4 75.7 512 101 512L347 512c25.3 0 46.3-19.6 47.9-44.9L416 144z"/></svg></button>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        function openAddSubjectModal() {
+            document.getElementById('input-subject-name').value = '';
+            document.getElementById('input-subject-room').value = '';
+            document.getElementById('modal-add-subject').classList.remove('hidden');
+        }
+
+        function closeAddSubjectModal() {
+            document.getElementById('modal-add-subject').classList.add('hidden');
+        }
+
+        function saveSubjectToSchedule() {
+            const name = document.getElementById('input-subject-name').value.trim();
+            const room = document.getElementById('input-subject-room').value.trim();
+
+            if (!name) return;
+
+            if (!state.schedule[state.selectedScheduleDay]) {
+                state.schedule[state.selectedScheduleDay] = [];
+            }
+
+            state.schedule[state.selectedScheduleDay].push({
+                id: 's_' + Date.now(),
+                mapel: name,
+                room: room || 'Kelas SMK'
+            });
+
+            saveStateToStorage();
+            closeAddSubjectModal();
+            renderScheduleView();
+        }
+
+        function removeSubjectFromSchedule(id) {
+            state.schedule[state.selectedScheduleDay] = state.schedule[state.selectedScheduleDay].filter(item => item.id !== id);
+            saveStateToStorage();
+            renderScheduleView();
+        }
+
+        function saveTargetSetting() {
+            const val = parseInt(document.getElementById('setting-target-min').value);
+            if (val && val >= 15) {
+                state.dailyTargetMinutes = val;
+                saveStateToStorage();
+                alert('Target belajar harian berhasil disimpan!');
+                renderDashboard();
+            }
+        }
+
+        /* --- Backup & Restore JSON Data --- */
+
+        function exportDataJSON() {
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(state, null, 2));
+            const downloadAnchor = document.createElement('a');
+            downloadAnchor.setAttribute("href", dataStr);
+            downloadAnchor.setAttribute("download", `StudyTrack_Backup_${localDateStr()}.json`);
+            document.body.appendChild(downloadAnchor);
+            downloadAnchor.click();
+            downloadAnchor.remove();
+        }
+
+        function importDataJSON(event) {
+            const fileReader = new FileReader();
+            fileReader.onload = function(e) {
+                try {
+                    const importedState = JSON.parse(e.target.result);
+                    if (importedState.materi && importedState.logs) {
+                        state.materi = importedState.materi;
+                        state.logs = importedState.logs;
+                        if (importedState.schedule) state.schedule = importedState.schedule;
+                        state.pr = importedState.pr || [];
+                        if (importedState.dailyTargetMinutes) state.dailyTargetMinutes = importedState.dailyTargetMinutes;
+
+                        saveStateToStorage();
+                        alert('Data berhasil dipulihkan dari cadangan JSON!');
+                        location.reload();
+                    } else {
+                        alert('Format file JSON tidak valid untuk StudyTrack.');
+                    }
+                } catch (err) {
+                    alert('Gagal membaca file JSON cadangan.');
+                }
+            };
+            if (event.target.files[0]) {
+                fileReader.readAsText(event.target.files[0]);
+            }
+        }
+
+        function resetDataDefault() {
+            if (confirm('Apakah Anda yakin ingin mengembalikan data ke kondisi awal pabrik? Seluruh catatan baru akan dihapus.')) {
+                localStorage.removeItem('studytrack_materi');
+                localStorage.removeItem('studytrack_logs');
+                localStorage.removeItem('studytrack_schedule');
+                localStorage.removeItem('studytrack_target');
+                localStorage.removeItem('studytrack_pr');
+                localStorage.removeItem(SESSION_KEY);
+                location.reload();
+            }
+        }
+
+        /* ==========================================================================
+           UTILITY FUNCTIONS
+           ========================================================================== */
+
+        function escapeHtml(str) {
+            if (!str) return '';
+            return str
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+    </script>
+    <script>
+        // Daftarkan service worker agar aplikasi bisa dibuka offline (hanya saat di-host via https)
+        if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+            window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+        }
+    </script>
+</body>
+</html>
